@@ -1,24 +1,18 @@
-import { useStaticQuery, graphql } from "gatsby"
+import { globalHistory } from "@reach/router"
 import React from "react"
 import PropTypes from "prop-types"
 
 import Header from "./header/"
-import Footer from './footer/'
+import Footer from "./footer/"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const { sitePage } = useStaticQuery(graphql`
-    query {
-      sitePage {
-        path
-      }
-    }
-  `)
+  const { location } = globalHistory
   return (
     <>
       <Header />
       {children}
-      {sitePage.path.includes('contato') ? <></> : <Footer /> }
+      {location.pathname.includes('contato') ? <></> : <Footer /> }
     </>
   )
 }

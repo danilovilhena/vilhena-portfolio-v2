@@ -3,9 +3,11 @@ module.exports = {
     title: `Danilo Vilhena`,
     description: `Portfólio do desenvolvedor web Danilo Vilhena.`,
     author: `Danilo Vilhena`,
+    siteUrl: 'https://danilovilhena.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

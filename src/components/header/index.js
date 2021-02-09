@@ -1,16 +1,11 @@
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { globalHistory } from "@reach/router"
+import { Link } from "gatsby"
 import React from "react"
 import BrazilFlag from '../../images/brazil.svg'
 import './header.css'
 
 const Header = () => {
-  const { sitePage } = useStaticQuery(graphql`
-    query {
-      sitePage {
-        path
-      }
-    }
-  `)
+  const { location } = globalHistory
   
   return <nav className="navbar navbar-expand-lg mx-auto" id="nav">
     <div className="container-fluid">
@@ -21,13 +16,13 @@ const Header = () => {
       <div className="collapse navbar-collapse" id="right-side">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to="/projetos" className={sitePage.path.includes('projetos') ? 'nav-link active': 'nav-link'}>Projetos</Link>
+            <Link to="/projetos" className={location.pathname.includes('projetos') ? 'nav-link active': 'nav-link'}>Projetos</Link>
           </li>
           <li className="nav-item ms-lg-3">
-            <Link to="/tecnologias" className={sitePage.path.includes('tecnologias') ? 'nav-link active': 'nav-link'}>Tecnologias</Link>
+            <Link to="/tecnologias" className={location.pathname.includes('tecnologias') ? 'nav-link active': 'nav-link'}>Tecnologias</Link>
           </li>
           <li className="nav-item ms-lg-3">
-            <Link to="/contato" className={sitePage.path.includes('contato') ? 'nav-link active': 'nav-link'}>Contato</Link>
+            <Link to="/contato" className={location.pathname.includes('contato') ? 'nav-link active': 'nav-link'}>Contato</Link>
           </li>
           <li className="nav-item ms-lg-3">
             <img src={BrazilFlag} alt="Bandeira do Brasil" id="flag-btn"></img>

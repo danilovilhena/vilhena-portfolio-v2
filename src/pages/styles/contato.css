@@ -1,0 +1,88 @@
+/* General CSS */
+#ContactMain{
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+#ContactMain section{
+    display: flex;
+    margin-top: 1.5rem;
+    background-color: #21414E;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+}
+#ContactMain section > img{
+    width: 15rem;
+    height: auto;
+    margin-right: 2rem;
+    object-fit: contain;
+}
+#ContactMain h2{
+    font-weight: 600;
+}
+#ContactMain h3{
+    font-weight: 500;
+    margin-bottom: .25rem;
+}
+#ContactMain .line{
+    display: flex;
+    align-items: center;
+    background-color: #FFD154;
+    padding: .25rem .5rem;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+#ContactMain .line img{
+    width: 1.5rem;
+    margin-right: .5rem;
+}
+#ContactMain .line p{
+    color: #21414E;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+/* Responsivity CSS */
+@media (max-width: 991.98px) {
+    #ContactMain section > img{
+        width: 12rem;
+    }
+    #ContactMain h2{
+        font-size: 1.75rem;
+    }
+}
+@media (max-width: 767.98px) {
+    #ContactMain section{
+        flex-direction: column;
+    }
+    #ContactMain section > img{
+        align-self: center;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 575.98px) {
+    #ContactMain section, #ContactMain section > div{
+        align-items: center;
+    }
+    #ContactMain section h3{
+        text-align: center;
+    }
+    #ContactMain .line{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ContactMain .line p{
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 424.98px) {
+    #ContactMain .line p{
+        font-size: 1.125rem;
+    }
+    #ContactMain > section > div > div:nth-child(2) > img{
+        display: none;
+    }
+}

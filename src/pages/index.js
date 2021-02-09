@@ -1,3 +1,4 @@
+import { navigate } from "gatsby"
 import React from "react"
 
 import Layout from "../components/layout"
@@ -25,13 +26,13 @@ const IndexPage = () => (
               <img src={RocketIllustration} alt="Ilustração de um foguete"></img>
               <h3>Projetos</h3>
               <p>Descubra mais detalhes sobre as aplicações que já desenvolvi.</p>
-              <button routerLink="/projects">Ver mais</button>
+              <button onClick={() => navigate('/projects')}>Ver mais</button>
           </section>
           <section class="section">
               <img src={ComputerIllustration} alt="Ilustração de um computador"></img>
               <h3>Tecnologias</h3>
               <p>Conheça as tecnologias que tenho conhecimento e experiência</p>
-              <button routerLink="/tech">Ver mais</button>
+              <button onClick={() => navigate('/tech')}>Ver mais</button>
           </section>
       </section>
     </main>
