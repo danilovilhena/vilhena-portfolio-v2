@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import ogImage from '../images/avatar-square.webp'
 
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
@@ -24,29 +25,27 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-
-  const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const defaultDescription = site.siteMetadata?.description
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      title={defaultTitle + " - " + title }
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: defaultDescription + " " + description,
         },
         {
           property: `og:title`,
-          content: title,
+          content: defaultTitle + " - " + title,
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: defaultDescription + " " + description,
         },
         {
           property: `og:type`,
@@ -58,7 +57,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          content: site.siteMetadata?.author || `Danilo Vilhena`,
         },
         {
           name: `twitter:title`,
@@ -66,7 +65,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: description,
         },
       ].concat(meta)}
     />
@@ -74,8 +73,37 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
+  lang: `pt`,
+  meta: [
+    {
+      name: "twitter:image",
+      content: "https://danilovilhena.com" + ogImage,
+    },
+    {
+      name: "robots",
+      content: "index, follow"
+    },
+    {
+      name: "google-site-verification",
+      content: "zChzfBhhwLnahLPY5V0tHmDtAOz8Fyw4zkE4crl_tAE"
+    },
+    {
+      name: "og:locale",
+      content: "pt_BR",
+    },
+    {
+      name: "og:site_name",
+      content: "Danilo Vilhena - Desenvolvedor Web",
+    },
+    {
+      name: "og:url",
+      content: "https://danilovilhena.com",
+    },
+    {
+      name: "og:image",
+      content: "https://danilovilhena.com" + ogImage,
+    }
+  ],
   description: ``,
 }
 

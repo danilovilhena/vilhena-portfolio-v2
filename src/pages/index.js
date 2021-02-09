@@ -1,21 +1,40 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import AvatarImage from '../images/avatar.webp'
+import RocketIllustration from '../images/rocket.svg'
+import ComputerIllustration from '../images/computer.svg'
+import './styles/home.css'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <SEO 
+      lang="pt"
+      title="Desenvolvedor Web" 
+      description="Desenvolvedor web com ênfase na acessibilidade e otimização dos sites."/>
+    
+    <main className="mx-auto">
+      <section id="top-section" class="mx-auto">
+          <img src={AvatarImage} alt="Avatar do Danilo Vilhena" id="top-section-img"></img>
+          <h2 id="top-section-h2">Olá, eu sou o Danilo!</h2>
+          <p id="top-section-p">Sou um <span>desenvolvedor web</span> em Fortaleza. <br></br>Dou enfâse à acessibilidade, usabilidade e a garantir uma boa experiência para os usuários.</p>
+      </section>
+      <section id="bottom-section" class="mx-auto">
+          <section class="section">
+              <img src={RocketIllustration} alt="Ilustração de um foguete"></img>
+              <h3>Projetos</h3>
+              <p>Descubra mais detalhes sobre as aplicações que já desenvolvi.</p>
+              <button routerLink="/projects">Ver mais</button>
+          </section>
+          <section class="section">
+              <img src={ComputerIllustration} alt="Ilustração de um computador"></img>
+              <h3>Tecnologias</h3>
+              <p>Conheça as tecnologias que tenho conhecimento e experiência</p>
+              <button routerLink="/tech">Ver mais</button>
+          </section>
+      </section>
+    </main>
   </Layout>
 )
 
