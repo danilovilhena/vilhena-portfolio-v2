@@ -1,0 +1,84 @@
+/* General CSS */
+#TechMain{
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+#TechMain h2{
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+#TechMain h3{
+    font-weight: 600;
+    color: #FFCA3A !important;
+}
+
+#TechMain .section svg, #TechMain .section img{
+    height: 5rem;
+    margin-bottom: .5rem;
+}
+/* Area */
+#TechMain .area{
+    background-color: #1c353f;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+#TechMain .area h3{
+    text-align: center;
+}
+#TechMain #content{
+    display: flex;
+    flex-direction: column;
+}
+
+#TechMain .sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#TechMain .section{
+    padding: 1.5rem 0;
+    width: 12rem;
+    margin-top: .5rem;
+    margin-right: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #21414E;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+}
+#TechMain .content-row{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+/* Responsivity CSS */
+@media (max-width: 1553.98px) {
+    #TechMain #content > div:nth-child(2) > div:nth-child(3){
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 1031.98px) {
+    #TechMain #content > div:nth-child(2) > div:nth-child(2){
+        margin-top: 2rem;
+    }
+    #TechMain #content > div:nth-child(1){
+        flex-wrap: wrap;
+    }
+    #TechMain #content > div:nth-child(1) > div:nth-child(2){
+        margin-top: 2rem;
+    }
+    #TechMain .area{
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
+    }
+}
