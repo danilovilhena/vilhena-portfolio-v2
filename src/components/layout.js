@@ -8,6 +8,7 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   const { location } = globalHistory
+  
   return (
     <>
       <Header />

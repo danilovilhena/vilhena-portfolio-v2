@@ -1,0 +1,123 @@
+/* Regular CSS */
+#ProjectsMain {
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+#ProjectsMain h2{
+    font-weight: 600;
+}
+#ProjectsMain #sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#ProjectsMain .section{
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #21414E;
+    box-shadow: 0px 25px 100px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    width: 40%;
+}
+#ProjectsMain .section #title{
+    display: flex;
+    align-items: center;
+    margin-bottom: .75rem;
+}
+#ProjectsMain .section #title img{
+    margin-right: 1rem;
+}
+#ProjectsMain .section #title h3{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#ProjectsMain .section p{
+    font-size: 1.25rem;
+    text-align: start;
+    margin-top: 0;
+}
+#ProjectsMain .section #buttons{
+    align-self: flex-end;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+#ProjectsMain .section a:first-child{
+    margin-right: 1rem;
+}
+#ProjectsMain .section a{
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: #FFCA3A;
+    color: #19323C;
+    padding: .75rem 1.5rem;
+    box-shadow: 0px 10px 40px rgba(48, 115, 81, 0.15);
+    border-radius: 100px;
+    border: none;
+    transition: all 0.25s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+#ProjectsMain .section a:hover{
+    background-color: #ffd86e;
+}
+#ProjectsMain .section .button-inverted{
+    background-color: transparent;
+    border: 3px solid #FFCA3A;
+    color:#FFCA3A;
+}
+#ProjectsMain .section .button-inverted:hover{
+    background-color: #ffd86e;
+    border: 3px solid #ffd86e;
+    color:#19323C;
+}
+
+/* Responsivity CSS */
+@media (max-width: 1299.98px) {
+    #ProjectsMain .section{
+        width: 45%;
+    }
+    #ProjectsMain #sections{
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1149.98px) {
+    #ProjectsMain .section a:first-child{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    #ProjectsMain .section #buttons{
+        align-self: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #ProjectsMain .section a{
+        width: 75%;
+        text-align: center;
+        align-self: center;
+    }
+}
+@media (max-width: 849.98px) {
+    #ProjectsMain .section{
+        width: 100%;
+    }
+    #ProjectsMain h2{
+        font-size: 1.75rem;
+    }
+}
+@media (max-width: 424.98px) {
+    #ProjectsMain .section a{
+        width: 90%;
+    }
+}
+@media (max-width: 319.98px) {
+    #ProjectsMain .section a{
+        width: 95%;
+    }
+}
