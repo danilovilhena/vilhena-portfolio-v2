@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import NotFoundImage from '../images/404.png'
-import './styles/404.css'
+import '../styles/404.css'
 
 const NotFoundPage = () => (
   <Layout>

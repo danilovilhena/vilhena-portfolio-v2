@@ -7,7 +7,7 @@ import Angular from "../images/technologies/angular.svg"
 import NextJs from "../images/technologies/nextjs.png"
 import Figma from "../images/technologies/figma.svg"
 import AdobeXD from "../images/technologies/xd.svg"
-import './styles/tecnologias.css'
+import '../styles/tecnologias.css'
 
 const Tile = ({children}) => (
   <div style={{maxWidth: "100%", padding: "10px"}}>

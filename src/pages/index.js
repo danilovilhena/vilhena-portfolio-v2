@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import AvatarImage from '../images/avatar.webp'
 import RocketIllustration from '../images/rocket.svg'
 import ComputerIllustration from '../images/computer.svg'
-import './styles/home.css'
+import '../styles/home.css'
 
 const IndexPage = () => (
   <Layout>

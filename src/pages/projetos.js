@@ -9,7 +9,7 @@ import GameIllustration from "../images/projects/game.png"
 import MailIllustration from "../images/projects/mail.png"
 import ComputerIllustration from "../images/projects/computer.png"
 import CameraIllustration from "../images/projects/camera.png"
-import './styles/projetos.css'
+import '../styles/projetos.css'
 
 const ProjectsPage = () => (
   <Layout>
@@ -30,7 +30,7 @@ const ProjectsPage = () => (
                 <p>Blog com notícias de tecnologia, agrupadas por assunto ou meses do ano. Com a possibilidade de cadastro, você pode postar suas próprias produções.</p>
                 <div id="buttons">
                     <Link className="button-inverted" to="/projetos/blog">Mais detalhes</Link>
-                    <a href="https://danilovilhena.github.io/angular-express-blog/" target="_blank">Ver aplicação</a>
+                    <a href="https://danilovilhena.github.io/angular-express-blog/" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
             {/* COVID19 */}
@@ -42,19 +42,19 @@ const ProjectsPage = () => (
                 <p>Aplicação para exibir as informações do COVID em cidades e estados do Brasil e do mundo.</p>
                 <div id="buttons">
                     <Link className="button-inverted" to="/projetos/covid">Mais detalhes</Link>
-                    <a href="https://vilhena-covid-dashboard.netlify.app" target="_blank">Ver aplicação</a>
+                    <a href="https://vilhena-covid-dashboard.netlify.app" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
             {/* Empathy Lab */}
             <section className="section">
                 <div id="title">
-                    <img src={GameIllustration} alt="Ilustração de um controle de videogame" width="56" width="56"></img>
+                    <img src={GameIllustration} alt="Ilustração de um controle de videogame" width="56" height="56"></img>
                     <h3>Empathy Lab</h3>
                 </div>
                 <p>Jogo para demonstrar as dificuldades de uma pessoa cega ou com baixa visão ao acessar a web</p>
                 <div id="buttons">
                     <Link className="button-inverted" to="/projetos/empathy">Mais detalhes</Link>
-                    <a href="leadfortaleza.com.br/empathywal/" target="_blank">Ver aplicação</a>
+                    <a href="leadfortaleza.com.br/empathywal/" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
             {/* Landing page */}
@@ -66,7 +66,7 @@ const ProjectsPage = () => (
                 <p>Landing page para reunir interessados no produto de um cliente em um grupo do Telegram e em uma lista de emails.</p>
                 <div id="buttons">
                     <Link className="button-inverted" to="/projetos/landing">Mais detalhes</Link>
-                    <a href="https://konradmota.com.br/#/" target="_blank">Ver aplicação</a>
+                    <a href="https://konradmota.com.br/#/" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
             {/* Plugin WAL */}
@@ -78,7 +78,7 @@ const ProjectsPage = () => (
                 <p>Plugin para tornar a web mais utilizável e acessível para pessoas com deficiência visual.</p>
                 <div id="buttons">
                     <Link className="button-inverted" to="/projetos/wal">Mais detalhes</Link>
-                    <a href="https://brasil.estadao.com.br/blogs/vencer-limites/dell-cria-software-que-inclui-acessibilidade-em-navegadores-e-sistemas/" target="_blank">Ver aplicação</a>
+                    <a href="https://brasil.estadao.com.br/blogs/vencer-limites/dell-cria-software-que-inclui-acessibilidade-em-navegadores-e-sistemas/" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
             {/* Filmes */}
@@ -90,7 +90,7 @@ const ProjectsPage = () => (
                 <p>Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em mais detalhes de diversos filmes.</p>
                 <div id="buttons">
                     <Link className="button-inverted" to="/projetos/movies">Mais detalhes</Link>
-                    <a href="https://vilhena-movies.netlify.app" target="_blank">Ver aplicação</a>
+                    <a href="https://vilhena-movies.netlify.app" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
         </div>

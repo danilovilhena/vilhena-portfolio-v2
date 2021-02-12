@@ -1,0 +1,185 @@
+/* General CSS */
+#BlogMain {
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+#BlogMain p, #BlogMain li{
+    font-size: 1.25rem;
+}
+#BlogMain #title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+#BlogMain #title h2{
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+#BlogMain #project-img{
+    align-self: center;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+#BlogMain a{
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: .75rem 1.5rem;
+    box-shadow: 0px 10px 40px rgba(48, 115, 81, 0.15);
+    border-radius: 100px;
+    border: none;
+    transition: all 0.25s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ececec;
+}
+#BlogMain #buttons{
+    align-self: center;
+    margin-bottom: 2rem;
+    display: flex;
+}
+#BlogMain #buttons img{
+    margin-right: 1rem;
+}
+#BlogMain #github-button{
+    background-color: #24292E;
+    margin-right: 1rem;
+}
+#BlogMain #github-button:hover{
+    background-color: #2c3440;
+}
+#BlogMain #figma-button{
+    background-color: #E5E5E5;
+    color: #222831;
+    margin-right: 1rem;
+}
+#BlogMain #figma-button:hover{
+    background-color: #f2f2f2;
+}
+#BlogMain #regular-button{
+    background-color: #FFCA3A;
+    color: #222831;
+}
+#BlogMain #regular-button:hover{
+    background-color: #ffd86e;
+}
+#BlogMain h3{
+    font-weight: 600;
+    color: #FFCA3A;
+}
+#BlogMain #description div{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+#BlogMain #description p{
+    margin-bottom: 0;
+    margin-left: .5rem;
+}
+#BlogMain #description{
+    margin-bottom: 2rem;
+}
+#BlogMain #technologies{
+    margin-bottom: 1rem;
+}
+#BlogMain .technology{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+#BlogMain .technology p{
+    margin-bottom: 0;
+    margin-left: .5rem;
+}
+#BlogMain h4{
+    font-weight: 600;
+    margin-left: 1rem;
+}
+#BlogMain ul{
+    margin-left: 2rem;
+}
+#BlogMain li{
+    list-style: none;
+    margin-bottom: .5rem;
+}
+#BlogMain li img{
+    margin-right: .5rem;
+}
+#BlogMain #inverted-button{
+    background-color: transparent;
+    border: 3px solid #FFCA3A;
+    color:#FFCA3A;
+    width: fit-content;
+    margin-top: 2rem;
+}
+#BlogMain #inverted-button:hover{
+    background-color: #ffd86e;
+    border: 3px solid #ffd86e;
+    color:#19323C;
+}
+
+/* Responsivity CSS */
+@media (max-width: 767.98px) {
+    #BlogMain ul{
+        margin-left: 0;
+    }
+    #BlogMain #inverted-button{
+        align-self: center;
+    }
+    #BlogMain main{
+        margin-bottom: 0;
+    }
+} 
+@media (max-width: 575.98px) {
+    #BlogMain h4{
+        margin-left: 0;
+    }
+    #BlogMain li{
+        margin-bottom: 1rem;
+    }
+    #BlogMain #buttons{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #BlogMain #description div{
+        align-items: flex-start !important;
+    }
+    #BlogMain #description div img{
+        margin-top: .5rem;
+    }
+    
+}
+@media (max-width: 549.98px){
+    #BlogMain #figma-button{
+        margin-right: 0;
+    }
+    #BlogMain #regular-button{
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 364.98px) {
+    #BlogMain #buttons, #BlogMain #buttons > div{
+        flex-direction: column;
+    }
+    #BlogMain #github-button{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    #BlogMain #technologies > div > div{
+        flex-direction: column;
+    }
+    #BlogMain ul{
+        padding-left: 0;
+    }
+    #BlogMain li, #BlogMain p{
+        font-size: 1.125rem;
+    }
+    #BlogMain h4{
+        margin-top: 2rem;
+    }
+}

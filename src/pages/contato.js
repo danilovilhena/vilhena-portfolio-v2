@@ -6,7 +6,7 @@ import AvatarImage from '../images/avatar.webp'
 import MailIcon from '../images/mail.svg'
 import GithubIcon from '../images/github.svg'
 import InstagramIcon from '../images/instagram.svg'
-import './styles/contato.css'
+import '../styles/contato.css'
 
 const ContactPage = () => (
   <Layout>
