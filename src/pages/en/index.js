@@ -16,19 +16,19 @@ const IndexPage = () => (
       description="Fullstack web developer that emphasises acessibility, usability and ensuring excellent user experience."/>
     
     <main className="mx-auto">
-      <section id="top-section" class="mx-auto">
+      <section id="top-section" className="mx-auto">
           <img src={AvatarImage} alt="Danilo Vilhena's Avatar" id="top-section-img"></img>
           <h2 id="top-section-h2">Hello, I'm Danilo!</h2>
           <p id="top-section-p">I am a <span>web developer</span> from Brazil. <br></br>I emphasize acessibility, usability and ensuring an excellent user experience.</p>
       </section>
-      <section id="bottom-section" class="mx-auto">
-          <section class="section">
+      <section id="bottom-section" className="mx-auto">
+          <section className="section">
               <img src={RocketIllustration} alt="Rocket illustration"></img>
               <h3>Projects</h3>
               <p>Discover more details about the applications I developed</p>
               <button onClick={() => navigate('projects')}>See more</button>
           </section>
-          <section class="section">
+          <section className="section">
               <img src={ComputerIllustration} alt="Computer illustration"></img>
               <h3>Technologies</h3>
               <p>Find out the technologies I know and have experience</p>
