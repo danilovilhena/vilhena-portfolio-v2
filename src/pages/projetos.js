@@ -89,7 +89,7 @@ const ProjectsPage = () => (
                 </div>
                 <p>Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em mais detalhes de diversos filmes.</p>
                 <div id="buttons">
-                    <Link className="button-inverted" to="/projetos/movies">Mais detalhes</Link>
+                    <Link className="button-inverted" to="/projetos/filmes">Mais detalhes</Link>
                     <a href="https://vilhena-movies.netlify.app" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
