@@ -12,8 +12,7 @@ const IndexPage = () => (
   <LayoutEn>
     <SEOEn 
       lang="en"
-      title="Fullstack Web Developer" 
-      description="Fullstack web developer that emphasises acessibility, usability and ensuring excellent user experience."/>
+      title="Fullstack Web Developer"/>
     
     <main className="mx-auto">
       <section id="top-section" className="mx-auto">
