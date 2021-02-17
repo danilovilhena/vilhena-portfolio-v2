@@ -61,8 +61,6 @@
     transition: all 0.25s ease-in-out;
     text-decoration: none;
     cursor: pointer;
-    display: flex;
-    align-items: center;
 }
 #ProjectsMain .section a:hover{
     background-color: #ffd86e;
