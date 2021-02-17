@@ -57,10 +57,12 @@
     color: #19323C;
     padding: .75rem 1.5rem;
     border-radius: 100px;
-    border: none;
+    border: 3px solid #FFCA3A;
     transition: all 0.25s ease-in-out;
     text-decoration: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 #ProjectsMain .section a:hover{
     background-color: #ffd86e;
