@@ -90,10 +90,14 @@
         margin-right: 0;
         margin-bottom: 1rem;
     }
+    #ProjectsMain .section{
+        align-items: center;
+    }
     #ProjectsMain .section #buttons{
         align-self: auto;
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     #ProjectsMain .section a{
         width: 75%;
