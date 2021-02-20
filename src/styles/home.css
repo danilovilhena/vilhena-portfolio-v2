@@ -27,7 +27,7 @@ span{
 }
 
 /* Bottom Section */
-#bottom-section{
+.bottom-section{
     display: flex;
     justify-content: space-evenly;
     width: 90%;
@@ -67,6 +67,23 @@ span{
 .section button:hover{
     background-color: #ffd86e;
 }
+#download{
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: #FFCA3A;
+    color: #19323C;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    border-radius: 100px;
+    border: none;
+    transition: all 0.25s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+}
+#download:hover{
+    background-color: #ffd86e;
+}
+
 
 /* Responsivity CSS */
 @media (max-width: 1399.98px) {
@@ -94,7 +111,7 @@ span{
     #top-section{
         width: 85%;
     }
-    #bottom-section{
+    .bottom-section{
         flex-direction: column;
         align-items: center;
     }
@@ -113,6 +130,9 @@ span{
     .section button{
         padding: .75rem 3rem;
     }
+    #download{
+        padding: .75rem 3rem;
+    }
 }
 @media (max-width: 575.98px) {
     #top-section{
@@ -124,7 +144,7 @@ span{
     #top-section p{
         font-size: 1.25rem;
     }
-    .section{
+    .section, #download{
         width: 75%;
     }
 }

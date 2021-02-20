@@ -6,6 +6,7 @@ import SEOEn from "../../components/seoEn"
 import AvatarImage from '../../images/avatar.webp'
 import RocketIllustration from '../../images/rocket.svg'
 import ComputerIllustration from '../../images/computer.svg'
+import Curriculum from '../../CV-DaniloVilhena.pdf' 
 import '../../styles/home.css'
 
 const IndexPage = () => (
@@ -20,7 +21,7 @@ const IndexPage = () => (
           <h2 id="top-section-h2">Hello, I'm Danilo!</h2>
           <p id="top-section-p">I am a <span>web developer</span> from Brazil. <br></br>I emphasize acessibility, usability and ensuring an excellent user experience.</p>
       </section>
-      <section id="bottom-section" className="mx-auto">
+      <section className="bottom-section mx-auto">
           <section className="section">
               <img src={RocketIllustration} alt="Rocket illustration"></img>
               <h3>Projects</h3>
@@ -33,6 +34,9 @@ const IndexPage = () => (
               <p>Find out the technologies I know and have experience</p>
               <button onClick={() => navigate('tech')}>See more</button>
           </section>
+      </section>
+      <section className="bottom-section mx-auto">
+        <a id="download" href={Curriculum} download>Download my CV</a>
       </section>
     </main>
   </LayoutEn>
