@@ -9,6 +9,7 @@ import GameIllustration from "../images/projects/game.png"
 import MailIllustration from "../images/projects/mail.png"
 import ComputerIllustration from "../images/projects/computer.png"
 import CameraIllustration from "../images/projects/camera.png"
+import PencilIllustration from "../images/projects/pencil.png"
 import '../styles/projetos.css'
 
 const ProjectsPage = () => (
@@ -21,7 +22,19 @@ const ProjectsPage = () => (
     <main className="mx-auto" id="ProjectsMain">
         <h2>Projetos</h2>
         <div id="sections">
-            {/* Blog  */}
+            {/* Give me a font  */}
+            <section className="section">
+                <div id="title">
+                    <img src={PencilIllustration} height="60" alt="Ilustração de uma caixa de lápis"></img>
+                    <h3>Give me a font</h3>
+                </div>
+                <p>Aplicação para gerar fontes grátis aleatórias baseadas na escolha de um estilo para usar no seu próximo projeto.</p>
+                <div id="buttons">
+                    <Link className="button-inverted" to="/projetos/givemeafont">Mais detalhes</Link>
+                    <a href="https://danilovilhena.github.io/give-me-a-font/" target="_blank" rel="noreferrer">Ver aplicação</a>
+                </div>
+            </section>
+            {/* Blog */}
             <section className="section">
                 <div id="title">
                     <img src={BlogIllustration} alt="Ilustração de um computador"></img>
