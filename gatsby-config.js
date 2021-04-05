@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#19323C`,
         theme_color: `#19323C`,
         display: `minimal-ui`,
-        icon: `src/images/avatar.webp`,
+        icon: `src/images/pfp.png`,
       },
     },
     `gatsby-plugin-offline`,

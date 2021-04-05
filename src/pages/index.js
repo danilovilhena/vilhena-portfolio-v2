@@ -3,7 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import AvatarImage from '../images/avatar.webp'
+import AvatarImage from '../images/pfp.png'
 import RocketIllustration from '../images/rocket.svg'
 import ComputerIllustration from '../images/computer.svg'
 import Curriculum from '../CV-DaniloVilhena.pdf' 
