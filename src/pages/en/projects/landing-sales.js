@@ -4,42 +4,36 @@ import React from "react"
 import Layout from "../../../components/layout"
 import SEO from "../../../components/seo"
 import Ellipse from "../../../images/ellipse.svg"
-import Pencil from "../../../images/projects/pencil.png"
-import GMFImage from "../../../images/captures/gmf.png"
-import GithubIcon from "../../../images/technologies/github.svg"
+import Sales from "../../../images/projects/discount.png"
+import LandingImage from "../../../images/captures/landing-2.png"
 import FigmaIcon from "../../../images/technologies/figma.svg"
 import '../../../styles/project.css'
 
-const BlogPage = () => {
+const LandingVendasPage = () => {
     return (
     <Layout>
         <SEO 
         lang="en"
-        title="Give me a font" 
-        description="Discover more details about the page Give me a font I developed"/>
+        title="Product landing page" 
+        description="Discover more details about a product landing page I developed."/>
 
         <main className="mx-auto" id="ProjectMain">
             <div id="title">
-                <img src={Pencil} height="65" alt="Pencil case illustration"></img>
-                <h2>Give me a font</h2>
+                <img src={Sales} height="60" alt="Discount tag illustration"></img>
+                <h2>Product landing page</h2>
             </div>
-            <img id="project-img" src={GMFImage} alt="Give me a Font image" style={{marginBottom: '2rem'}}></img>
+            <img id="project-img" src={LandingImage} alt="Landing page image" style={{marginBottom: '2rem'}}></img>
             <div id="buttons">
-                <div style={{display: 'flex'}}>
-                    <a id="github-button" href="https://github.com/danilovilhena/give-me-a-font" target="_blank" rel="noreferrer">
-                        <img src={GithubIcon} alt="Github icon"></img>Github
-                    </a>
-                    <a id="figma-button" href="https://www.figma.com/file/JSJRnOF7eTC79cpf9ctTMO/Give-me-a-font" target="_blank" rel="noreferrer">
-                        <img src={FigmaIcon} alt="Figma icon"></img>Figma
-                    </a>
-                </div>
-                <a id="regular-button" href="https://danilovilhena.github.io/give-me-a-font" target="_blank" rel="noreferrer">Application</a>
+                <a id="figma-button" href="https://www.figma.com/file/7zprPZ2ofF2wDXd1CppFBB/Audi%C3%AAncia-Trabalhista" target="_blank" rel="noreferrer">
+                    <img src={FigmaIcon} alt="Figma Icon"></img>Figma
+                </a>
+                <a id="regular-button" href="https://recjus.com.br" target="_blank" rel="noreferrer">Application</a>
             </div>
             <section id="description">
                 <h3>Application details</h3>
                 <div style={{display: 'flex', alignItems: 'center', margintop: '1rem'}}>
                     <img src={Ellipse} aria-hidden="true" alt=""></img>
-                    <p>Application that gives you random free fonts based on style choice for your next project.</p>
+                    <p>Application to present a product and direct clients to the sales platform.</p>
                 </div>
             </section>
             <section id="technologies">
@@ -64,11 +58,10 @@ const BlogPage = () => {
                 </div>
             </section>
             <section id="details">
-                <h3>Implementation details</h3>
+                <h3>Detalhes da implementação</h3>
                 <ul style={{marginLeft: "-1rem"}}>
-                    <li style={{marginBottom: "1rem"}}><img style={{marginTop: "-0.5rem"}} src={Ellipse} aria-hidden="true" alt=""></img>Used Gatsby for it's SSG and many modules for optimizations and performance</li>
+                <li style={{marginBottom: "1rem"}}><img style={{marginTop: "-0.5rem"}} src={Ellipse} aria-hidden="true" alt=""></img>Used Gatsby for it's SSG and many modules for optimizations and performance</li>
                     <li style={{marginBottom: "1rem"}}><img style={{marginTop: "-0.5rem"}} src={Ellipse} aria-hidden="true" alt=""></img>Used Tailwind for a more practical CSS development and less build size</li>
-                    <li style={{marginBottom: "1rem"}}><img style={{marginTop: "-0.5rem"}} src={Ellipse} aria-hidden="true" alt=""></img>Consumed Google Fonts API to get the fonts</li>
                     <li style={{marginBottom: "1rem"}}><img style={{marginTop: "-0.5rem"}} src={Ellipse} aria-hidden="true" alt=""></img>Optimized the website according to Google Lighthouse and Gatsby modules</li>
                     <li><img style={{marginTop: "-0.5rem"}} src={Ellipse} aria-hidden="true" alt=""></img>Componentization and reuse of elements</li>
                 </ul>
@@ -78,4 +71,4 @@ const BlogPage = () => {
   </Layout>)
 }
 
-export default BlogPage
+export default LandingVendasPage

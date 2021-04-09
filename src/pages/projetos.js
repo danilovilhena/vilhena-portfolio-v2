@@ -10,6 +10,7 @@ import MailIllustration from "../images/projects/mail.png"
 import ComputerIllustration from "../images/projects/computer.png"
 import CameraIllustration from "../images/projects/camera.png"
 import PencilIllustration from "../images/projects/pencil.png"
+import SalesIllustration from "../images/projects/discount.png"
 import '../styles/projetos.css'
 
 const ProjectsPage = () => (
@@ -32,6 +33,18 @@ const ProjectsPage = () => (
                 <div id="buttons">
                     <Link className="button-inverted" to="/projetos/givemeafont">Mais detalhes</Link>
                     <a href="https://danilovilhena.github.io/give-me-a-font/" target="_blank" rel="noreferrer">Ver aplicação</a>
+                </div>
+            </section>
+            {/* Landing de Vendas */}
+            <section className="section">
+                <div id="title">
+                    <img src={SalesIllustration} height="60" alt="Ilustração de uma etiqueta de desconto"></img>
+                    <h3>Landing page de vendas</h3>
+                </div>
+                <p>Aplicação para apresentar um produto e direcionar os clientes para a plataforma de vendas.</p>
+                <div id="buttons">
+                    <Link className="button-inverted" to="/projetos/landing-vendas">Mais detalhes</Link>
+                    <a href="https://recjus.com.br" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
             {/* Blog */}

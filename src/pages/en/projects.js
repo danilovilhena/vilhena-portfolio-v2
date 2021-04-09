@@ -10,6 +10,7 @@ import MailIllustration from "../../images/projects/mail.png"
 import ComputerIllustration from "../../images/projects/computer.png"
 import CameraIllustration from "../../images/projects/camera.png"
 import PencilIllustration from "../../images/projects/pencil.png"
+import SalesIllustration from "../../images/projects/discount.png"
 import '../../styles/projetos.css'
 
 const ProjectsPage = () => (
@@ -25,13 +26,25 @@ const ProjectsPage = () => (
             {/* Give me a font  */}
             <section className="section">
                 <div id="title">
-                    <img src={PencilIllustration} alt="Ilustração de uma caixa de lápis"></img>
+                    <img src={PencilIllustration} alt="Pencil case illustration"></img>
                     <h3>Give me a font</h3>
                 </div>
                 <p>Application that gives you random free fonts based on style choice for your next project.</p>
                 <div id="buttons">
-                    <Link className="button-inverted" to="/en/projects/givemeafont">Mais detalhes</Link>
-                    <a href="https://danilovilhena.github.io/give-me-a-font/" target="_blank" rel="noreferrer">Ver aplicação</a>
+                    <Link className="button-inverted" to="/en/projects/givemeafont">More details</Link>
+                    <a href="https://danilovilhena.github.io/give-me-a-font/" target="_blank" rel="noreferrer">Open application</a>
+                </div>
+            </section>
+            {/* Landing de Vendas */}
+            <section className="section">
+                <div id="title">
+                    <img src={SalesIllustration} height="60" alt="Discount tag illustration"></img>
+                    <h3>Product landing page</h3>
+                </div>
+                <p>Application to present a product and direct clients to the sales platform.</p>
+                <div id="buttons">
+                    <Link className="button-inverted" to="/en/projects/landing-sales">More details</Link>
+                    <a href="https://recjus.com.br" target="_blank" rel="noreferrer">Open application</a>
                 </div>
             </section>
             {/* Blog  */}
