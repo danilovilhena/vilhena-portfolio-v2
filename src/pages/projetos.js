@@ -80,7 +80,7 @@ const ProjectsPage = () => (
                 <p>Jogo para demonstrar as dificuldades de uma pessoa cega ou com baixa visão ao acessar a web</p>
                 <div id="buttons">
                     <Link className="button-inverted" to="/projetos/empathy">Mais detalhes</Link>
-                    <a href="leadfortaleza.com.br/empathywal/" target="_blank" rel="noreferrer">Ver aplicação</a>
+                    <a href="http://leadfortaleza.com.br/empathywal/" target="_blank" rel="noreferrer">Ver aplicação</a>
                 </div>
             </section>
             {/* Landing page */}
