@@ -3,10 +3,6 @@ import { Link } from "gatsby"
 import SEO from "../../components/seo"
 
 import Danilo from "../../images/pfp.png"
-import Github from "../../images/github.svg"
-import Instagram from "../../images/instagram.svg"
-import Linkedin from "../../images/linkedin.svg"
-
 import "../../styles/v2.css"
 
 const linkGithub = "https://github.com/danilovilhena"
@@ -37,17 +33,26 @@ const Header = () => (
 )
 
 const Introduction = () => (
-    <section id="first-section">
+    <section id="introduction">
         <div>
             <h1>Olá, eu sou o Danilo! <span id="wave">👋🏼</span></h1>
             <h2>Sou um <b>desenvolvedor front-end</b> em Fortaleza. Eu <a href={linkGithub}>programo</a>, faço <Link to="/v2">designs</Link> e <a href={linkInstagram}>compartilho conhecimento</a>.</h2>
 
-            <p>Sou um dev interessado em <b>design</b>, <b>acessibilidade</b> e <b>usabilidade</b>. Atualmente trabalho no <a href="http://leadfortaleza.com.br/portal">LEAD Dell</a>.</p>
+            <p>Sou um dev focado em <b>performance</b>, <b>usabilidade</b> e <b>acessibilidade</b>. Atualmente trabalho no <a href="http://leadfortaleza.com.br/portal">LEAD Dell</a>.</p>
             <p>Construo aplicações usando tecnologias como Gatsby, Angular e Vue.</p>
             <p>Faço design de interfaces web/mobile usando o Figma.</p>
             <p>Você pode me encontrar no <a href={linkGithub}>Github</a>, <a href={linkInstagram}>Instagram</a> e <a href={linkLinkedin}>LinkedIn</a>.</p>
         </div>
         <img src={Danilo} alt="Danilo Vilhena"></img>
+    </section>
+)
+
+const Contact = () => (
+    <section id="contact">
+        <h2>Contato</h2>
+        <h3>Vamos construir algum projeto juntos!</h3>
+        <p>Por favor envie um e-mail se estiver procurando por um desenvolvedor front-end, UI designer ou só quiser entrar em contato! 🙋‍♂️</p>
+        <a href="mailto:danilo.vilhena@gmail.com" rel="noopener noreferrer" target="_blank">Fale comigo</a>
     </section>
 )
 
@@ -80,10 +85,10 @@ const Index = () => (<>
         lang="pt"
         title="Desenvolvedor front-end" 
         description="Desenvolvedor front-end com ênfase na acessibilidade e otimização dos sites."/>
-    
     <Header />
     <main className="wrapper">
         <Introduction />
+        <Contact />
     </main>
     <Footer />
 </>)

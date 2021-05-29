@@ -54,50 +54,85 @@ nav{
 }
 
 /* First section styling */
-#first-section{
+#introduction{
     padding-top: 3rem;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
-#first-section div{
+#introduction div{
     width: 100%;
     margin-right: 5rem;
 }
-#first-section img{
+#introduction img{
     max-width: 20rem;
 }
-#first-section #wave{
+#introduction #wave{
     display: inline-block;
     transform-origin: 70% 70%;
     animation: tilt 1.2s infinite;
 } 
-#first-section h1{
-    font-size: 3rem;
+#introduction h1{
+    font-size: 3.25rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
-#first-section h2{
+#introduction h2{
     font-size: 1.5rem;
     font-weight: normal;
     line-height: 2.25rem;
     margin-bottom: 2rem;
     width: 85%;
 }
-#first-section p{
+#introduction p{
     font-size: 1.125rem;
     margin-bottom: 1.25rem;
     width: 90%;
 }
-#first-section a{
+#introduction a{
     color: #00b0ff;
     text-decoration: none;
 }
-#first-section a:hover{
+#introduction a:hover{
     text-decoration-color: #00b0ff;
     text-decoration-thickness: .115em;
     text-decoration: underline;
     text-underline-offset: 1px;
+}
+
+/* Contact styling */
+#contact{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 55%;
+}
+#contact h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#contact h3{
+    color: #93a6af;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+#contact p{
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    margin-bottom: 3rem;
+}
+#contact a{
+    background-color: #2871d7;
+    border-radius: .25rem;
+    font-size: 1.125rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: all .15s ease-in-out;
+}
+#contact a:hover{
+    background-color: hsl(215, 69%, 45%);
 }
 
 /* Footer styling */
