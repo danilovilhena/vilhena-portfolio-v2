@@ -1,4 +1,5 @@
 import React from "react"
+import debounce from 'lodash.debounce'
 import { Link } from "gatsby"
 import SEO from "../../components/seo"
 
@@ -47,11 +48,105 @@ const Introduction = () => (
     </section>
 )
 
+const Designs = (props) => (
+    <section id="designs" className="section-container" style={{marginTop: '3rem'}}>
+        <h2 className="section-title">Designs</h2>
+        <div className="section-subtitle-div">
+            <h3 className="section-subtitle">Projetos do zero e redesigns de UI</h3>
+            <a href="#">Ver todos</a>
+        </div>
+        <CardHolder obj={props.obj}/>
+    </section>
+)
+
+const Projects = (props) => (
+    <section id="designs" className="section-container">
+        <h2 className="section-title">Projetos</h2>
+        <div className="section-subtitle-div">
+            <h3 className="section-subtitle">Principais aplicações que desenvolvi</h3>
+            <a href="#">Ver todos</a>
+        </div>
+        <CardHolder obj={props.obj}/>
+    </section>
+)
+
+const CardHolder = (props) => {
+    const scrollablePostsRef = React.useRef({ current: {} })
+    const [scrollPosition, setScrollPosition] = React.useState(0)
+    const SCROLL_DEBOUNCE_MS_TIME = 20
+
+    const onScroll = debounce(
+        (event) => setScrollPosition(event.target.scrollLeft),
+        SCROLL_DEBOUNCE_MS_TIME
+    )
+
+    const scrollTo = (action) => {
+        const postWidth = scrollablePostsRef.current.childNodes[0].offsetWidth
+        const scrollPosition = action === 'next'
+        ? scrollablePostsRef.current.scrollLeft + postWidth
+        : scrollablePostsRef.current.scrollLeft - postWidth
+
+        scrollablePostsRef.current.scrollTo({
+        behavior: 'smooth',
+        left: scrollPosition,
+        top: 0
+        })
+    }
+
+    return (<>
+        <div className="row row-cols-1 row-cols-md-3 g-4 card-holder" onScroll={onScroll} ref={scrollablePostsRef}>
+            <Card obj={props.obj}/>
+            <Card obj={props.obj}/>
+            <Card obj={props.obj}/>
+            <Card obj={props.obj}/>
+            <Card obj={props.obj}/>
+            <Card obj={props.obj}/>
+            <Card obj={props.obj}/>
+        </div>
+        <ScrollButtons
+            scrollTo={scrollTo}
+            scrollPosition={scrollPosition}
+            scrollPositionMaxWidth={scrollablePostsRef.current.scrollWidth - scrollablePostsRef.current.clientWidth}
+        />
+    </>)
+}
+
+const Card = (props) => (
+    <div className="col">
+        <div className="card h-100" role="button">
+            <img src={props.obj.src} className="card-img-top" alt={props.obj.alt}></img>
+            <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </div>
+)
+
+const ScrollButtons = (props) => {
+    const SCROLL_VISIBILITY_THRESHOLD = 1
+
+    return (<div className="scroll-container">
+        <button disabled={props.scrollPosition <= SCROLL_VISIBILITY_THRESHOLD} onClick={() => props.scrollTo('previous')}>
+            <svg fill='#fafafa' height='24' width='24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M15.422 7.406L10.828 12l4.594 4.594L14.016 18l-6-6 6-6z' />
+            </svg>
+            <span>Anterior</span>
+        </button>
+        <button disabled={props.scrollPosition >= (props.scrollPositionMaxWidth - SCROLL_VISIBILITY_THRESHOLD)} onClick={() => props.scrollTo('next')}>
+            <span>Próximo</span>
+            <svg fill='#fafafa' height='24' width='24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M9.984 6l6 6-6 6-1.406-1.406L13.172 12 8.578 7.406z' />
+            </svg>
+      </button>
+    </div>)
+}
+
 const Contact = () => (
-    <section id="contact">
-        <h2>Contato</h2>
-        <h3>Vamos construir algum projeto juntos!</h3>
-        <p>Por favor envie um e-mail se estiver procurando por um desenvolvedor front-end, UI designer ou só quiser entrar em contato! 🙋‍♂️</p>
+    <section id="contact" className="section-container">
+        <h2 className="section-title">Contato</h2>
+        <h3 className="section-subtitle" style={{marginBottom: '1rem'}}>Vamos construir algum projeto juntos!</h3>
+        <p className="section-paragraph">Por favor envie um e-mail se estiver procurando por um desenvolvedor front-end, UI designer ou só quiser entrar em contato! 🙋‍♂️</p>
         <a href="mailto:danilo.vilhena@gmail.com" rel="noopener noreferrer" target="_blank">Fale comigo</a>
     </section>
 )
@@ -80,7 +175,13 @@ const Footer = () => (
     </footer>
 )
 
-const Index = () => (<>
+const Index = () => {
+    let myObj = {
+        src: "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        alt: "temp",
+        href: "#"
+    }
+    return (<>
     <SEO 
         lang="pt"
         title="Desenvolvedor front-end" 
@@ -88,9 +189,12 @@ const Index = () => (<>
     <Header />
     <main className="wrapper">
         <Introduction />
+        <Designs obj={myObj}/>
+        <Projects obj={myObj}/>
         <Contact />
     </main>
     <Footer />
-</>)
+    </>)
+}
 
 export default Index
