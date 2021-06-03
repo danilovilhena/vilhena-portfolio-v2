@@ -1,25 +1,17 @@
-import { globalHistory } from "@reach/router"
 import React from "react"
-import PropTypes from "prop-types"
+import SEO from "./seo"
+import Header from "./Header"
+import Footer from "./Footer"
 
-import Header from "./header/"
-import Footer from "./footer/"
-import "./layout.css"
-
-const Layout = ({ children }) => {
-  const { location } = globalHistory
-  
-  return (
-    <>
-      <Header />
-      {children}
-      {location.pathname.includes('contato') ? <></> : <Footer /> }
-    </>
-  )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+const Layout = (props) => (<>
+    <SEO 
+        lang="pt"
+        title={props.title}
+        description={props.description ? props.description : "Desenvolvedor front-end com ênfase na acessibilidade e otimização dos sites."}/>
+    <Header />
+    {props.children}
+    <Footer />
+</>)
 
 export default Layout
+
