@@ -14,7 +14,7 @@
 /* main styling */
 .project-main{
     max-width: 54rem;
-    margin: 2.5rem auto 0 auto;
+    margin: 2.5rem auto;
     padding: 0;
 }
 .project-main h1{
@@ -28,10 +28,8 @@
     line-height: 1.15;
     margin-top: 2.5rem;
 }
-.project-date{
-    color: #93a6af;
-    font-size: 1.25rem;
-    font-weight: normal;
+.project-main p{
+    font-size: 1.125rem;
 }
 .project-main a{
     display: block;
@@ -43,4 +41,9 @@
     text-decoration-thickness: .115em;
     text-decoration: underline;
     text-underline-offset: 1px;
+}
+.project-date{
+    color: #93a6af;
+    font-size: 1.25rem;
+    font-weight: normal;
 }

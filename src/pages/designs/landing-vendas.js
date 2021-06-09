@@ -14,7 +14,8 @@ const LandingVendas = () => (
             <p className="project-date"><span alt="Calendário">📅</span> Abril de 2021</p>
 
             <h2>Motivação</h2>
-            <p>oaskodkasodkaoskd</p>
+            <p>Para esse projeto, os clientes pediram uma página de vendas para um curso que eles produziram. Dessa forma, o design deveria conter informações sobre os professores e detalhes sobre o curso.</p>
+            <p>Além disso, a página deveria ter suas seções consistentes e ter botões de CTA claros e destacados para alcançar uma conversão maior.</p>
 
             <h2>Processo</h2>
             <p>asokdaoskdaoskd</p>
