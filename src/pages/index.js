@@ -21,10 +21,10 @@ const designs = [
 
 const projects = [
     {title: "Landing pages de vendas", subtitle: "Página de apresentação de um produto responsiva e buscando a performance máxima.", image: imageLanding, href: "/projetos/landing-vendas"},
-    {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: imageLanding, href: "/projetos/give-me-a-font"},
-    {title: "Blog Tech News", subtitle: "Aplicação completa de um blog, com a possibilidade de cadastro, você pode postar suas próprias produções.", image: imageLanding, href: "/projetos/blog-tech-news"},
     {title: "WAL Empathy Lab", subtitle: "Uma experiência de usuário, onde você poderá interagir com a web e vivenciar situações cotidianas de pessoas com deficiência visual.", image: imageLanding, href: "/projetos/wal-empathy"},
     {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: imageLanding, href: "/projetos/wal-plugin"},
+    {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: imageLanding, href: "/projetos/give-me-a-font"},
+    {title: "Blog Tech News", subtitle: "Aplicação completa de um blog, com a possibilidade de cadastro, você pode postar suas próprias produções.", image: imageLanding, href: "/projetos/blog-tech-news"},
     {title: "Página de captura de e-mails", subtitle: "Página para apresentar um evento e exibir um formulário para captar clientes", image: imageLanding, href: "/projetos/landing-emails"},
     {title: "Buscador de filmes", subtitle: "Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em detalhes de diversos filmes.", image: imageLanding, href: "/projetos/buscador-de-filmes"}
 ]
@@ -76,11 +76,6 @@ const Contact = () => (
 )
 
 const Index = () => {
-    let myObj = {
-        src: "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-        alt: "temp",
-        href: "#"
-    }
     return (
     <Layout title="Desenvolvedor front-end" description="Desenvolvedor front-end com ênfase na acessibilidade e otimização dos sites.">
         <main className="wrapper">

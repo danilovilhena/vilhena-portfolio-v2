@@ -1,5 +1,6 @@
 import React from "react"
 import debounce from "lodash.debounce"
+import { navigate } from "gatsby-link"
 
 const CardHolder = (props) => {
     const scrollablePostsRef = React.useRef({ current: {} })
@@ -40,7 +41,7 @@ const CardHolder = (props) => {
 
 const Card = (props) => {
     return (<div className="col">
-        <div className="card h-100" role="button">
+        <div className="card h-100" role="button" onClick={() => navigate(props.obj.href)}>
             <img src={props.obj.image} className="card-img-top" alt={props.obj.title}></img>
             <div className="card-body">
                 <h5 className="card-title">{props.obj.title}</h5>
