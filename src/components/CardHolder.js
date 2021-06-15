@@ -27,8 +27,8 @@ const CardHolder = (props) => {
 
     return (<>
         <div className="row row-cols-1 row-cols-md-3 g-4 card-holder" onScroll={onScroll} ref={scrollablePostsRef}>
-        {props.obj.map((el) => { return (
-            <Card obj={el}/>
+        {props.obj.map((el, index) => { return (
+            <Card obj={el} key={index}/>
         )})}
         </div>
         <ScrollButtons
@@ -40,7 +40,7 @@ const CardHolder = (props) => {
 }
 
 const Card = (props) => {
-    return (<div className="col">
+    return (<div className="col" data-aos="fade-right">
         <div className="card h-100" role="button" onClick={() => navigate(props.obj.href)}>
             <img src={props.obj.image} className="card-img-top" alt={props.obj.title}></img>
             <div className="card-body">

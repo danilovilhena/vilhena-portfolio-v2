@@ -47,3 +47,35 @@
     font-size: 1.25rem;
     font-weight: normal;
 }
+.project-result-image{
+    width: 100%;
+    margin-top: 1rem;
+}
+.project-link{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    width: max-content;
+}
+.project-link svg{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+a.return-button{
+    margin-top: 2rem;
+    background-color: #2871d7;
+    border-radius: .25rem;
+    font-size: 1.125rem;
+    color: #fff;
+    cursor: pointer;
+    padding: .75rem 2rem;
+    text-decoration: none;
+    transition: all .15s ease-in-out;
+    width: max-content;
+}
+a.return-button:hover{
+    text-decoration-color: #fff;
+    text-decoration: none;
+    background-color: hsl(215, 69%, 45%);
+}

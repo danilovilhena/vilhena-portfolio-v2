@@ -40,7 +40,7 @@ const Introduction = () => (
             <p>Faço design de interfaces web/mobile usando o Figma.</p>
             <p>Você pode me encontrar no <a href={linkGithub}>Github</a>, <a href={linkInstagram}>Instagram</a> e <a href={linkLinkedin}>LinkedIn</a>.</p>
         </div>
-        <img src={Danilo} alt="Danilo Vilhena"></img>
+        <img src={Danilo} alt="Danilo Vilhena" data-aos="fade-left"></img>
     </section>
 )
 
