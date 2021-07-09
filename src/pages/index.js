@@ -4,7 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/Layout"
 import CardHolder from "../components/CardHolder"
 import Danilo from "../images/pfp.png"
-import imageLanding from "../images/v2/pagina-de-vendas.png"
+import designLanding from "../images/v2/pagina-de-vendas.png"
+import designFlow from "../images/v2/flow-podcast.png"
+import designReset from "../images/v2/reset-digital.png"
+import designFont from "../images/v2/give-me-a-font.png"
+import designTuttory from "../images/v2/tuttory.png"
+import designDoWhat from "../images/v2/do-what.png"
+
 import "../styles/index.css"
 
 const linkGithub = "https://github.com/danilovilhena"
@@ -12,22 +18,22 @@ const linkInstagram = "https://instagram.com/dev_danilo"
 const linkLinkedin = "https://www.linkedin.com/in/danilo-vilhena/"
 
 const designs = [
-    {title: "Landing pages de vendas", subtitle: "Páginas projetadas para apresentar um produto digital e mostrar seus detalhes visando a conversão.", image: imageLanding, href: "/designs/landing-vendas"},
-    {title: "Redesign do Flow Podcast", subtitle: "Nova e consistente proposta de design para o site do maior podcast do Brasil.", image: imageLanding, href: "/designs/flow-podcast"},
-    {title: "Redesign do Reset Digital", subtitle: "Nova proposta de design para uma página de captura de e-mail inconsistente.", image: imageLanding, href: "/designs/reset-digital"},
-    {title: "Give me a font!", subtitle: "Design de uma aplicação para gerar uma fonte aleatória com base na escolha de um estilo.", image: imageLanding, href: "/designs/give-me-a-font"},
-    {title: "Aplicativo Tuttory", subtitle: "Plataforma inovadora para conectar alunos e professores particulares.", image: imageLanding, href: "/designs/tuttory"},
-    {title: "do what?", subtitle: "Design simples e minimalista de uma aplicação de acompanhamento de tarefas a fazer.", image: imageLanding, href: "/designs/do-what"}
+    {title: "Landing pages de vendas", subtitle: "Páginas projetadas para apresentar um produto digital e mostrar seus detalhes visando a conversão.", image: designLanding, href: "/designs/landing-vendas"},
+    {title: "Redesign do Flow Podcast", subtitle: "Nova e consistente proposta de design para o site do maior podcast do Brasil.", image: designFlow, href: "/designs/flow-podcast"},
+    {title: "Redesign do Reset Digital", subtitle: "Nova proposta de design para uma página inconsistente de captura de e-mails.", image: designReset, href: "/designs/reset-digital"},
+    {title: "Give me a font!", subtitle: "Design de uma aplicação para gerar uma fonte aleatória com base na escolha de um estilo.", image: designFont, href: "/designs/give-me-a-font"},
+    {title: "Tuttory", subtitle: "Plataforma inovadora para conectar alunos e professores particulares.", image: designTuttory, href: "/designs/tuttory"},
+    {title: "do what?", subtitle: "Design simples e minimalista de uma aplicação de acompanhamento de tarefas a fazer.", image: designDoWhat, href: "/designs/do-what"}
 ]
 
 const projects = [
-    {title: "Landing pages de vendas", subtitle: "Página de apresentação de um produto responsiva e buscando a performance máxima.", image: imageLanding, href: "/projetos/landing-vendas"},
-    {title: "WAL Empathy Lab", subtitle: "Uma experiência de usuário, onde você poderá interagir com a web e vivenciar situações cotidianas de pessoas com deficiência visual.", image: imageLanding, href: "/projetos/wal-empathy"},
-    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: imageLanding, href: "/projetos/wal-plugin"},
-    {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: imageLanding, href: "/projetos/give-me-a-font"},
-    {title: "Blog Tech News", subtitle: "Aplicação completa de um blog, com a possibilidade de cadastro, você pode postar suas próprias produções.", image: imageLanding, href: "/projetos/blog-tech-news"},
-    {title: "Página de captura de e-mails", subtitle: "Página para apresentar um evento e exibir um formulário para captar clientes", image: imageLanding, href: "/projetos/landing-emails"},
-    {title: "Buscador de filmes", subtitle: "Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em detalhes de diversos filmes.", image: imageLanding, href: "/projetos/buscador-de-filmes"}
+    {title: "Landing pages de vendas", subtitle: "Página de apresentação de um produto responsiva e buscando a performance máxima.", image: designLanding, href: "/projetos/landing-vendas"},
+    {title: "WAL Empathy Lab", subtitle: "Uma experiência de usuário, onde você poderá interagir com a web e vivenciar situações cotidianas de pessoas com deficiência visual.", image: designLanding, href: "/projetos/wal-empathy"},
+    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: designLanding, href: "/projetos/wal-plugin"},
+    {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: designLanding, href: "/projetos/give-me-a-font"},
+    {title: "Blog Tech News", subtitle: "Aplicação completa de um blog, com a possibilidade de cadastro, você pode postar suas próprias produções.", image: designLanding, href: "/projetos/blog-tech-news"},
+    {title: "Página de captura de e-mails", subtitle: "Página para apresentar um evento e exibir um formulário para captar clientes", image: designLanding, href: "/projetos/landing-emails"},
+    {title: "Buscador de filmes", subtitle: "Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em detalhes de diversos filmes.", image: designLanding, href: "/projetos/buscador-de-filmes"}
 ]
 
 const Introduction = () => (
