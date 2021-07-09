@@ -15,6 +15,7 @@ const designs = [
     {title: "Landing pages de vendas", subtitle: "Páginas projetadas para apresentar um produto digital e mostrar seus detalhes visando a conversão.", image: imageLanding, href: "/designs/landing-vendas"},
     {title: "Redesign do Flow Podcast", subtitle: "Nova e consistente proposta de design para o site do maior podcast do Brasil.", image: imageLanding, href: "/designs/flow-podcast"},
     {title: "Redesign do Reset Digital", subtitle: "Nova proposta de design para uma página de captura de e-mail inconsistente.", image: imageLanding, href: "/designs/reset-digital"},
+    {title: "Give me a font!", subtitle: "Design de uma aplicação para gerar uma fonte aleatória com base na escolha de um estilo.", image: imageLanding, href: "/designs/give-me-a-font"},
     {title: "Aplicativo Tuttory", subtitle: "Plataforma inovadora para conectar alunos e professores particulares.", image: imageLanding, href: "/designs/tuttory"},
     {title: "do what?", subtitle: "Design simples e minimalista de uma aplicação de acompanhamento de tarefas a fazer.", image: imageLanding, href: "/designs/do-what"}
 ]
