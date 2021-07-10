@@ -10,6 +10,11 @@ import designReset from "../images/v2/reset-digital.png"
 import designFont from "../images/v2/give-me-a-font.png"
 import designTuttory from "../images/v2/tuttory.png"
 import designDoWhat from "../images/v2/do-what.png"
+import devEmail from "../images/v2/captura-email.png"
+import devBlog from "../images/v2/blog.png"
+import devFilmes from "../images/v2/buscador-filmes.png"
+import devEmpathy from "../images/v2/empathy-lab.png"
+import devWal from "../images/v2/wal.png"
 
 import "../styles/index.css"
 
@@ -28,12 +33,12 @@ const designs = [
 
 const projects = [
     {title: "Landing pages de vendas", subtitle: "Página de apresentação de um produto responsiva e buscando a performance máxima.", image: designLanding, href: "/projetos/landing-vendas"},
-    {title: "WAL Empathy Lab", subtitle: "Uma experiência de usuário, onde você poderá interagir com a web e vivenciar situações cotidianas de pessoas com deficiência visual.", image: designLanding, href: "/projetos/wal-empathy"},
-    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: designLanding, href: "/projetos/wal-plugin"},
-    {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: designLanding, href: "/projetos/give-me-a-font"},
-    {title: "Blog Tech News", subtitle: "Aplicação completa de um blog, com a possibilidade de cadastro, você pode postar suas próprias produções.", image: designLanding, href: "/projetos/blog-tech-news"},
-    {title: "Página de captura de e-mails", subtitle: "Página para apresentar um evento e exibir um formulário para captar clientes", image: designLanding, href: "/projetos/landing-emails"},
-    {title: "Buscador de filmes", subtitle: "Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em detalhes de diversos filmes.", image: designLanding, href: "/projetos/buscador-de-filmes"}
+    {title: "WAL Empathy Lab", subtitle: "Uma experiência de usuário, onde você poderá interagir com a web e vivenciar situações cotidianas de pessoas com deficiência visual.", image: devEmpathy, href: "/projetos/wal-empathy"},
+    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: devWal, href: "/projetos/wal-plugin"},
+    {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: designFont, href: "/projetos/give-me-a-font"},
+    {title: "Blog Tech News", subtitle: "Aplicação completa de um blog, com a possibilidade de cadastro, você pode postar suas próprias produções.", image: devBlog, href: "/projetos/blog-tech-news"},
+    {title: "Página de captura de e-mails", subtitle: "Página para apresentar um evento e exibir um formulário para captar clientes", image: devEmail, href: "/projetos/landing-emails"},
+    {title: "Buscador de filmes", subtitle: "Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em detalhes de diversos filmes.", image: devFilmes, href: "/projetos/buscador-de-filmes"}
 ]
 
 const Introduction = () => (
