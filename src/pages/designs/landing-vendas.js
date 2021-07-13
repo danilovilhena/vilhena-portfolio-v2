@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, navigate } from "gatsby"
+import { navigate } from "gatsby"
 import Layout from "../../components/Layout"
 import projectImage from "../../images/v2-sf/pagina-de-vendas.png"
 import result from "../../images/v2-results/landing_vendas.png"
@@ -7,7 +7,7 @@ import "../../styles/project.css"
 
 const LandingVendas = () => (
     <Layout title="Landing page de vendas" description="Desenvolvedor front-end com ênfase na acessibilidade e otimização dos sites. Projeto de design de landing page de vendas.">
-        <header class="project-header">
+        <header class="project-header" style={{background: 'linear-gradient(107.56deg, #0C1B41 0%, #132D6C 100%)'}}>
             <img src={projectImage} alt="Projeto de design de landing page" data-aos="fade-down"></img>
         </header>
         <main className="project-main" data-aos="fade-up">
