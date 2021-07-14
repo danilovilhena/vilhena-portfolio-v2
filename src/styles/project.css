@@ -8,6 +8,8 @@
 }
 .project-header img{
     height: 24rem;
+    object-fit: cover;
+    object-position: top;
 }
 
 /* main styling */
@@ -62,7 +64,7 @@
 }
 
 a.return-button{
-    margin-top: 2rem;
+    margin-top: 4rem;
     background-color: #2871d7;
     border-radius: .25rem;
     font-size: 1.125rem;
