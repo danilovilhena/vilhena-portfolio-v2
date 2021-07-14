@@ -7,7 +7,7 @@ import result from "../../images/v2-results/reset-digital.png"
 import "../../styles/project.css"
 
 const ResetDigital = () => (
-    <Layout title="Flow Podcast" description="Desenvolvedor front-end com ênfase na acessibilidade e otimização dos sites. Projeto de redesign para um site de captura">
+    <Layout title="Reset Digital" description="Desenvolvedor front-end com ênfase na acessibilidade e otimização dos sites. Projeto de redesign para um site de captura">
         <header className="project-header" style={{background: 'linear-gradient(72.44deg, #383933 50%, #191C18 100%)', padding: '2rem 0 0 0'}}>
             <img src={projectImage} alt="Projeto de redesign do Reset Digital" data-aos="fade-down" style={{width: '50%'}}></img>
         </header>
