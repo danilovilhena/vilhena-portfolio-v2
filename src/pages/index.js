@@ -89,7 +89,8 @@ const Contact = () => (
 
 const Index = () => {
     return (
-    <Layout title="Desenvolvedor front-end" description="Desenvolvedor front-end com ênfase na acessibilidade e otimização dos sites.">
+    <Layout title="Desenvolvedor front-end" description="Desenvolvedor front-end e UI designer 
+com ênfase na acessibilidade e otimização dos sites.">
         <main className="wrapper">
             <Introduction />
             <Designs obj={designs}/>

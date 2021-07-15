@@ -7,7 +7,7 @@ const Layout = (props) => (<>
     <SEO 
         lang="pt"
         title={props.title}
-        description={props.description ? props.description : "Desenvolvedor front-end com ênfase na acessibilidade e otimização dos sites."}/>
+        description={props.description ? props.description : "Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites."}/>
     <Header />
     {props.children}
     <Footer />
