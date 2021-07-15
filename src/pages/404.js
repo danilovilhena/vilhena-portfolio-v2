@@ -1,17 +1,20 @@
+import { Link } from "@reach/router"
 import { navigate } from "gatsby"
 import React from "react"
 
 import Layout from "../components/Layout"
-// import NotFoundImage from '../images/404.png'
+import image from "../images/404.svg"
+import "../styles/not-found.css"
 
-const NotFoundPage = () => (
-  <Layout title="404" description="Página não encontrada, por favor retorne para o site!">
-    <main className="mx-auto" id="NotFoundMain">
-      {/* <img src={NotFoundImage} alt="Ilustração de página não encontrada" className="NotFoundImage"></img> */}
-      <h2 className="NotFoundH2">Página em construção ou não encontrada!</h2>
-      <button className="NotFoundButton" onClick={() => navigate(-1)}>Voltar</button>
+const NotFound = () => (
+  <Layout title="404" description="Página não encontrada ou ainda em construção!">
+    <main className="mx-auto" id="not-found">
+      <img src={image} alt="Ilustração de página não encontrada"></img>
+      <h1>Ops!</h1>
+      <h2>Essa página não foi encontrada ou ainda está em construção 🚧</h2>
+      <Link to="/">Voltar para o início</Link>
     </main>
   </Layout>
 )
 
-export default NotFoundPage
+export default NotFound

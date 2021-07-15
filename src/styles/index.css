@@ -22,6 +22,9 @@ html, body{ background-color: hsl(0, 0%, 0%); }
 ::selection{
     background-color: #ff5252;
 }
+::-moz-selection{
+    background-color: #ff5252;
+}
 
 /* Nav styling */
 .navbar{
