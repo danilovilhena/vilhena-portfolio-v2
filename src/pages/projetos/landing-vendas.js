@@ -15,13 +15,16 @@ const LandingVendas = () => (
             <p className="project-date"><span alt="Calendário">📅</span> Abril de 2021</p>
 
             <h2>Motivação</h2>
-            <p>Para esse projeto, os clientes pediram uma página de vendas para um curso que eles produziram. Dessa forma, o design deveria conter informações sobre os professores e detalhes sobre o curso.</p>
-            <p>Além disso, a página deveria ter suas seções consistentes e ter botões de CTA claros e destacados para alcançar uma conversão maior.</p>
+            <p>Nesse projeto, os clientes pediram uma página de vendas para um curso que eles produziram. Assim, os principais objetivos para esse projeto foram: atingir uma excelente performance, ser totalmente responsivo e possuir bons CTAs (calls to action) para alcançar uma conversão maior.</p>
 
             <h2>Processo</h2>
-            <p>Como essa era uma página mais simples, as seções deviam ser bem objetivas. Então, consultei os clientes para saber quais informações eles julgava necessárias para a página de vendas do seu produto.</p>
-            <p>Após ele me entregar tais informações, fiz um esboço no papel de como elas deveriam ser estruturadas na página de forma que os compradores pudessem facilmente tirar suas dúvidas e prosseguir para a plataforma de vendas.</p>
-            <p>Por fim, utilizei o Figma para fazer tanto um wireframing quanto uma versão mais completa para apresentar e validar com o cliente.</p>
+            <p>Como o foco desse projeto era performance, decidi utilizar o framework Gatsby para poder programar em React e gerar páginas estáticas em produção. Com isso, consegui atingir uma página mais leve e otimizada.</p>
+            <p>Além disso, o Gatsby possui alguns plugins de otimização, como: minificar arquivos JS e CSS, remover regras CSS não usadas, fazer o preload de fontes e outros links, gerar as rotas do site de forma automática (de acordo com a estrutura de pastas) e montar o sitemap de acordo com tais rotas.</p>
+            <p>Quanto ao desenvolvimento em si, o projeto foi bem simples com poucas páginas a serem desenvolvidas. Dessa forma, a maior parte dos esforços nesse projeto foi voltada à performance, sempre verificando a página no Google Lighthouse e realizando as alterações necessárias para atingir a nota 100, como: comprimindo as imagens, carregando apenas os arquivos necessários e reduzindo os tamanhos de bundle.</p>
+            <p></p>
+            <p>Ademais, o outro foco do projeto foi tornar a página responsiva para todos os dispositivos, principalmente para celulares, já que a maior parte do acesso vem desses aparelhos. Utilizei o Tailwind como framework de CSS e para os breakpoints peguei o Bootstrap como referência, mas não usei o conceito mobile first, o qual poderia facilitar esse processo de estilização.</p>
+
+            <p>Por conclusão, atingi os objetivos traçados no começo de desenvolvimento: alcançar uma boa nota no PageSpeed Insights e tornar a página totalmente responsiva.</p>
 
             <h2>Resultado</h2>
             <img src={result} alt="Resultado da landing page de vendas" className="project-result-image"></img>
@@ -33,13 +36,6 @@ const LandingVendas = () => (
                 </svg>
                 Aplicação
             </a>
-            <a href="https://www.figma.com/file/0zZTx9yDxeMpQs4J7s16uM/execu%C3%A7%C3%A3o-trabalhista" className="project-link" target="_blank">
-            <svg viewBox="0 0 128 128">
-                <path fill="#0acf83" d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0"></path><path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"></path><path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"></path><path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"></path><path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"></path>
-            </svg>
-                Figma
-            </a>
-
             <a onClick={() => navigate(-1)} className="return-button">Voltar</a>
         </main>
     </Layout>
