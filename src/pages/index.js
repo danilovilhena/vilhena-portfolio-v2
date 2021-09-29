@@ -93,8 +93,8 @@ const Index = () => {
 com ênfase na acessibilidade e otimização dos sites.">
         <main className="wrapper">
             <Introduction />
-            <Designs obj={designs}/>
             <Projects obj={projects}/>
+            <Designs obj={designs}/>
             <Contact />
         </main>
     </Layout>
