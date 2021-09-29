@@ -64,8 +64,9 @@
 }
 
 a.return-button{
-    margin-top: 4rem;
+    margin-top: 3rem;
     background-color: #2871d7;
+    border: none;
     border-radius: .25rem;
     font-size: 1.125rem;
     color: #fff;

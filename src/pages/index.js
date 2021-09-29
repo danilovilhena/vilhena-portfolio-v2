@@ -61,7 +61,6 @@ const Designs = (props) => (
         <h2 className="section-title">Designs</h2>
         <div className="section-subtitle-div">
             <h3 className="section-subtitle">Projetos do zero e redesigns de UI</h3>
-            <a href="#">Ver todos</a>
         </div>
         <CardHolder obj={props.obj}/>
     </section>
@@ -72,7 +71,6 @@ const Projects = (props) => (
         <h2 className="section-title">Projetos</h2>
         <div className="section-subtitle-div">
             <h3 className="section-subtitle">Principais aplicações que desenvolvi</h3>
-            <a href="#">Ver todos</a>
         </div>
         <CardHolder obj={props.obj}/>
     </section>

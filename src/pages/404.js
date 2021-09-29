@@ -1,5 +1,4 @@
-import { Link } from "@reach/router"
-import { navigate } from "gatsby"
+import { Link } from "gatsby"
 import React from "react"
 
 import Layout from "../components/Layout"
@@ -11,7 +10,7 @@ const NotFound = () => (
     <main className="mx-auto" id="not-found">
       <img src={image} alt="Ilustração de página não encontrada"></img>
       <h1>Ops!</h1>
-      <h2>Essa página não foi encontrada ou ainda está em construção 🚧</h2>
+      <h2>Essa página não foi encontrada ou ainda está em construção <span aria-label="Construção" role="img">🚧</span></h2>
       <Link to="/">Voltar para o início</Link>
     </main>
   </Layout>

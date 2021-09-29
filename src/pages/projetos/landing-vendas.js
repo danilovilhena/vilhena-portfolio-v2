@@ -1,5 +1,5 @@
 import React from "react"
-import { navigate } from "gatsby"
+import { Link } from "gatsby"
 import Layout from "../../components/Layout"
 
 // images & styles
@@ -14,7 +14,7 @@ const LandingVendas = () => (
         </header>
         <main className="project-main" data-aos="fade-up">
             <h1>Landing page de vendas</h1>
-            <p className="project-date"><span alt="Calendário">📅</span> Abril de 2021</p>
+            <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Abril de 2021</p>
 
             <h2>Motivação</h2>
             <p>Nesse projeto, os clientes pediram uma página de vendas para um curso que eles produziram. Assim, os principais objetivos para esse projeto foram: atingir uma excelente performance, ser totalmente responsivo e possuir bons CTAs (calls to action) para alcançar uma conversão maior.</p>
@@ -38,7 +38,7 @@ const LandingVendas = () => (
                 </svg>
                 Aplicação
             </a>
-            <a onClick={() => navigate(-1)} className="return-button">Voltar</a>
+            <Link to="/" className="return-button">Voltar</Link>
         </main>
     </Layout>
 )

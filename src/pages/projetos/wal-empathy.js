@@ -1,5 +1,5 @@
 import React from "react"
-import { navigate } from "gatsby"
+import { Link } from "gatsby"
 import Layout from "../../components/Layout"
 
 // images & styles
@@ -8,12 +8,12 @@ import "../../styles/project.css"
 
 const WalEmpathy = () => (
     <Layout title="WAL Empathy Lab" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto WAL Empathy Lab.">
-        <header className="project-header" style={{background: 'linear-gradient(90deg, #075089 0%, #2175AF 100%);', padding: '2rem 0 0 0'}}>
+        <header className="project-header" style={{background: 'linear-gradient(90deg, #075089 0%, #2175AF 100%)', padding: '2rem 0 0 0'}}>
             <img src={projectImage} alt="Projeto WAL Empathy Lab" data-aos="fade-down" style={{width: '50%'}}></img>
         </header>
         <main className="project-main" data-aos="fade-up">
             <h1>WAL Empathy Lab</h1>
-            <p className="project-date"><span alt="Calendário">📅</span> Dezembro de 2020</p>
+            <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Dezembro de 2020</p>
 
             <h2>Descrição</h2>
             <p>O WAL Empathy Lab é uma experiência de usuário, onde você poderá interagir com a Web e vivenciar situações cotidianas de pessoas com deficiência visual: baixa visão e cega.</p>
@@ -32,7 +32,7 @@ const WalEmpathy = () => (
                 </svg>
                 Aplicação
             </a>
-            <a onClick={() => navigate(-1)} className="return-button">Voltar</a>
+            <Link to="/" className="return-button">Voltar</Link>
         </main>
     </Layout>
 )

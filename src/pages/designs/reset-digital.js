@@ -1,5 +1,5 @@
 import React from "react"
-import { navigate } from "gatsby"
+import { Link } from "gatsby"
 import Layout from "../../components/Layout"
 import projectImage from "../../images/v2-sf/reset-digital.png"
 import before from "../../images/v2-results/reset-digital-old.png"
@@ -13,7 +13,7 @@ const ResetDigital = () => (
         </header>
         <main className="project-main" data-aos="fade-up">
             <h1>Redesign do Reset Digital</h1>
-            <p className="project-date"><span alt="Calendário">📅</span> Maio de 2021</p>
+            <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Maio de 2021</p>
 
             <h2>Motivação</h2>
             <p>Recebi uma propaganda desse evento pelo Instagram e decidi entrar no site para fazer minha inscrição.</p>
@@ -30,14 +30,14 @@ const ResetDigital = () => (
             <img src={result} alt="Resultado do redesign do Reset Digital" className="project-result-image"></img>
 
             <h2>Links de acesso</h2>
-            <a href="https://www.figma.com/file/z3sgSuLo1ExYnce9tMhIj7/o-reset-digital?node-id=101%3A2" className="project-link" target="_blank">
+            <a href="https://www.figma.com/file/z3sgSuLo1ExYnce9tMhIj7/o-reset-digital?node-id=101%3A2" className="project-link" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 128 128">
                 <path fill="#0acf83" d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0"></path><path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"></path><path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"></path><path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"></path><path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"></path>
             </svg>
                 Figma
             </a>
 
-            <a onClick={() => navigate(-1)} className="return-button">Voltar</a>
+            <Link to="/" className="return-button">Voltar</Link>
         </main>
     </Layout>
 )
