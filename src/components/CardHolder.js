@@ -40,8 +40,8 @@ const CardHolder = (props) => {
 }
 
 const Card = (props) => {
-    return (<div className="col" data-aos="fade-right">
-        <div className="card h-100" role="button" onClick={() => navigate(props.obj.href)} onKeyDown={() => navigate(props.obj.href)} tabIndex="0">
+    return (<div className="col" data-aos="fade-right" role="link" tabIndex="0" onClick={() => navigate(props.obj.href)} onKeyDown={() => navigate(props.obj.href)}>
+        <div className="card h-100">
             <img src={props.obj.image} className="card-img-top" alt={props.obj.title}></img>
             <div className="card-body">
                 <h5 className="card-title">{props.obj.title}</h5>
