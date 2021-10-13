@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/Layout"
-
-// images & styles
 import projectImage from "../../images/v2-sf/pagina-de-vendas.png"
 import result from "../../images/v2-results/landing_vendas.png"
 import "../../styles/project.css"
@@ -23,9 +21,7 @@ const LandingVendas = () => (
             <p>Como o foco desse projeto era performance, decidi utilizar o framework Gatsby para poder programar em React e gerar páginas estáticas em produção. Com isso, consegui atingir uma página mais leve e otimizada.</p>
             <p>Além disso, o Gatsby possui alguns plugins de otimização, como: minificar arquivos JS e CSS, remover regras CSS não usadas, fazer o preload de fontes e outros links, gerar as rotas do site de forma automática (de acordo com a estrutura de pastas) e montar o sitemap de acordo com tais rotas.</p>
             <p>Quanto ao desenvolvimento em si, o projeto foi bem simples com poucas páginas a serem desenvolvidas. Dessa forma, a maior parte dos esforços nesse projeto foi voltada à performance, sempre verificando a página no Google Lighthouse e realizando as alterações necessárias para atingir a nota 100, como: comprimindo as imagens, carregando apenas os arquivos necessários e reduzindo os tamanhos de bundle.</p>
-            <p></p>
             <p>Ademais, o outro foco do projeto foi tornar a página responsiva para todos os dispositivos, principalmente para celulares, já que a maior parte do acesso vem desses aparelhos. Utilizei o Tailwind como framework de CSS e para os breakpoints peguei o Bootstrap como referência, mas não usei o conceito mobile first, o qual poderia facilitar esse processo de estilização.</p>
-
             <p>Por conclusão, atingi os objetivos traçados no começo de desenvolvimento: alcançar uma boa nota no PageSpeed Insights e tornar a página totalmente responsiva.</p>
 
             <h2>Resultado</h2>
