@@ -18,7 +18,7 @@ const GiveMeAFont = () => (
             <p>Quando comecei na área de UI design, percebi que diversas vezes eu repetia a tipografia entre os projetos e ficava "preso" em apenas duas fontes (as famosas Inter e Poppins). Por isso, decidi criar essa ferramenta para gerar uma fonte aleatória e poder testá-la em novos projetos.</p>
 
             <h2>Processo</h2>
-            <p>Realizei o design página e para a implementação decidi utilizar o framework Gatsby para poder programar em React e gerar páginas estáticas em produção. Com isso, consegui atingir uma página mais leve e otimizada.</p>
+            <p>Realizei o design da página e para a implementação decidi utilizar o framework Gatsby para poder programar em React e gerar páginas estáticas em produção. Com isso, consegui atingir uma página mais leve e otimizada.</p>
             <p>O primeiro passo desse projeto foi extrair as fontes disponíveis no Google Fonts para arquivos JSON, dividindo de acordo com o estilo da fonte (cursiva, sem serifa, com serifa, etc). O objetivo dessa extração foi construir uma lista (com nome, link e variações) de todas as fontes para selecionar uma fonte posteriormente.</p>
             <p>Quando o usuário escolhe um tipo de fonte, o algoritmo randomiza uma fonte no arquivo correspondente e faz uma requisição para o Google Fonts solicitando todas as variações dessa fonte (seus diferentes pesos, itálico).</p>
             <p>Depois que a fonte foi selecionada, a aplicação mostra todas suas variações na tela para que o usuário possa visualizar se essa fonte é adequada. Caso não seja, o usuário tem a opção de gerar outra fonte nesse mesmo estilo ou retornar para a página inicial e selecionar outro estilo.</p>
