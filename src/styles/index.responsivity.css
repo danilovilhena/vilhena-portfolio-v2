@@ -1,0 +1,121 @@
+@media (max-width: 1200px){
+    .wrapper{
+        max-width: none;
+        width: 90%;
+    }
+    #introduction div{
+        margin-right: 3rem;
+    }
+    #contact{
+        width: 65%;
+    }
+}
+
+@media (max-width: 1100px){
+    #introduction{
+        align-items: center;
+    }
+    #introduction p, #introduction h2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+    #contact{
+        width: 75%;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 900px){
+    #introduction div{
+        margin-right: 0;
+    }
+    #introduction img{
+        display: none;
+    }
+    #contact{
+        width: 90%;
+    }
+    .section-container{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 700px){
+    #introduction h1{
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+    #introduction h2{
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-bottom: 1.25rem;
+    }
+    #introduction p{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    #contact{
+        width: 100%;
+    }
+    .section-paragraph{
+        font-size: 1rem;
+    }
+    .section-title{
+        font-size: 1.75rem;
+    }
+    .section-subtitle{
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 600px){
+    #introduction h1{
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 500px){
+    #introduction{
+        padding-top: 2rem;
+    }
+    #introduction h1{
+        font-size: 2rem;
+    }
+    #introduction > div > p:nth-child(3), #introduction > div > p:nth-child(4), #introduction > div > p:nth-child(5){
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+    #introduction #wave{
+        display: none;
+    }
+}
+
+@media (max-width: 350px){
+    #download{
+        display: none;
+    }
+    #introduction h1{
+        font-size: 1.75rem;
+    }
+    #introduction > div > p:nth-child(3), #introduction > div > p:nth-child(6){
+        display: none;
+    }
+    #contact{
+        margin-bottom: 3rem;
+    }
+    footer{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    footer a{
+        margin-bottom: 1rem;
+    }
+    .section-subtitle{
+        font-size: 1rem;
+    }
+}

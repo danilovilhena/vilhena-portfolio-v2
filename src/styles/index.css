@@ -26,7 +26,7 @@ html, body{ background-color: #0a0a0a; }
     background-color: #ff5252;
 }
 
-/* Nav styling */
+/* nav styling */
 .navbar{
     width: 100%;
     padding: .5rem 0;
@@ -66,7 +66,7 @@ html, body{ background-color: #0a0a0a; }
     text-underline-offset: 1px;
 }
 
-/* First section styling */
+/* first section styling */
 #introduction{
     padding-top: 3rem;
     display: flex;
@@ -113,7 +113,7 @@ html, body{ background-color: #0a0a0a; }
     text-underline-offset: 1px;
 }
 
-/* Contact styling */
+/* contact styling */
 #contact{
     width: 55%;
 }
@@ -168,7 +168,7 @@ html, body{ background-color: #0a0a0a; }
     background-color: hsl(215, 69%, 45%);
 }
 
-/* Footer styling */
+/* footer styling */
 footer{
     width: 100%;
     padding: 1rem 0 !important;
@@ -200,7 +200,7 @@ footer div a:not(:last-child){
     margin-right: .5rem;
 }
 
-/* Card styling */
+/* card styling */
 .col{
     margin-bottom: .25rem;
 }
@@ -238,7 +238,7 @@ footer div a:not(:last-child){
     background: transparent;
 }
 
-/* Scroll styling */
+/* scroll styling */
 .scroll-container{
     display: flex;
     align-items: center;

@@ -26,7 +26,7 @@ const CardHolder = (props) => {
     }
 
     return (<>
-        <div className="row row-cols-1 row-cols-md-3 g-4 card-holder" onScroll={onScroll} ref={scrollablePostsRef}>
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-holder" onScroll={onScroll} ref={scrollablePostsRef}>
         {props.obj.map((el, index) => { return (
             <Card obj={el} key={index}/>
         )})}

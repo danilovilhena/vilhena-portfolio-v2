@@ -17,14 +17,15 @@ import devEmpathy from "../images/v2/empathy-lab.png"
 import devWal from "../images/v2/wal.png"
 
 import "../styles/index.css"
+import "../styles/index.responsivity.css"
 
 const linkGithub = "https://github.com/danilovilhena"
 const linkInstagram = "https://instagram.com/dev_danilo"
 const linkLinkedin = "https://www.linkedin.com/in/danilo-vilhena/"
 
 const designs = [
-    {title: "Landing pages de vendas", subtitle: "Páginas projetadas para apresentar um produto digital e mostrar seus detalhes visando a conversão.", image: designLanding, href: "/designs/landing-vendas"},
     {title: "Redesign do Flow Podcast", subtitle: "Nova e consistente proposta de design para o site do maior podcast do Brasil.", image: designFlow, href: "/designs/flow-podcast"},
+    {title: "Landing pages de vendas", subtitle: "Páginas projetadas para apresentar um produto digital e mostrar seus detalhes visando a conversão.", image: designLanding, href: "/designs/landing-vendas"},
     {title: "Redesign do Reset Digital", subtitle: "Nova proposta de design para uma página inconsistente de captura de e-mails.", image: designReset, href: "/designs/reset-digital"},
     {title: "Give me a font!", subtitle: "Design de uma aplicação para gerar uma fonte aleatória com base na escolha de um estilo.", image: designFont, href: "/designs/give-me-a-font"},
     {title: "Tuttory", subtitle: "Plataforma inovadora para conectar alunos e professores particulares.", image: designTuttory, href: "/designs/tuttory"},
@@ -32,9 +33,9 @@ const designs = [
 ]
 
 const projects = [
-    {title: "Landing pages de vendas", subtitle: "Página de apresentação de um produto responsiva e buscando a performance máxima.", image: designLanding, href: "/projetos/landing-vendas"},
     {title: "WAL Empathy Lab", subtitle: "Uma experiência de usuário, onde você poderá interagir com a web e vivenciar situações cotidianas de pessoas com deficiência visual.", image: devEmpathy, href: "/projetos/wal-empathy"},
     {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: devWal, href: "/projetos/wal-plugin"},
+    {title: "Landing pages de vendas", subtitle: "Página de apresentação de um produto responsiva e buscando a performance máxima.", image: designLanding, href: "/projetos/landing-vendas"},
     {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: designFont, href: "/projetos/give-me-a-font"},
     {title: "Blog Tech News", subtitle: "Aplicação completa de um blog, com a possibilidade de cadastro, você pode postar suas próprias produções.", image: devBlog, href: "/projetos/blog"},
     {title: "Página de captura de e-mails", subtitle: "Página para apresentar um evento e exibir um formulário para captar clientes", image: devEmail, href: "/projetos/landing-emails"},
