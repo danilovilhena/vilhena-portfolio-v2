@@ -9,9 +9,9 @@ import "../../styles/project.responsivity.css"
 const LandingVendas = () => (
     <Layout title="Landing page de vendas" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de design de landing page de vendas.">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #0C1B41 0%, #132D6C 100%)'}}>
-            <img src={projectImage} alt="Projeto de design de landing page" data-aos="fade-down" style={{width: 'auto'}}></img>
+            <img src={projectImage} alt="Projeto de design de landing page" style={{width: 'auto'}}></img>
         </header>
-        <main className="project-main" data-aos="fade-up">
+        <main className="project-main">
             <h1>Landing page de vendas</h1>
             <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Abril de 2021</p>
 

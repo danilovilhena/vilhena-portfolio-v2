@@ -10,9 +10,9 @@ import "../../styles/project.responsivity.css"
 const WalPlugin = () => (
     <Layout title="WAL Plugin" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto WAL Plugin.">
         <header className="project-header" style={{background: 'linear-gradient(90deg, #075089 0%, #2175AF 100%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto WAL Plugin" data-aos="fade-down" style={{width: '60%'}}></img>
+            <img src={projectImage} alt="Projeto WAL Plugin" style={{width: '60%'}}></img>
         </header>
-        <main className="project-main" data-aos="fade-up">
+        <main className="project-main">
             <h1>WAL Plugin</h1>
             <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Fevereiro de 2021</p>
 

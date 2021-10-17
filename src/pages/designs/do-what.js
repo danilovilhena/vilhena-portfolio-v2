@@ -9,9 +9,9 @@ import "../../styles/project.responsivity.css"
 const DoWhat = () => (
     <Layout title="do what?" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de design do what?">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #0C6597 0%, #084668 100%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto de design do what?" data-aos="fade-down" style={{minWidth: '50%'}}></img>
+            <img src={projectImage} alt="Projeto de design do what?" style={{minWidth: '50%'}}></img>
         </header>
-        <main className="project-main" data-aos="fade-up">
+        <main className="project-main">
             <h1>do what?</h1>
             <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Abril de 2021</p>
 

@@ -12,11 +12,8 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       </head>
       <body {...props.bodyAttributes}>
-        <script>AOS.init();</script>
         {props.preBodyComponents}
         <div
           key={`body`}

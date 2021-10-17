@@ -9,9 +9,9 @@ import "../../styles/project.responsivity.css"
 const Buscador = () => (
     <Layout title="Buscador de filmes" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de buscador de filmes.">
         <header className="project-header" style={{background: 'linear-gradient(107.47deg, #8ECEA2 -5.57%, #48C0C3 105.74%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto de design de landing page" data-aos="fade-down" style={{minWidth: '50%'}}></img>
+            <img src={projectImage} alt="Projeto de design de landing page"style={{minWidth: '50%'}}></img>
         </header>
-        <main className="project-main" data-aos="fade-up">
+        <main className="project-main">
             <h1>Buscador de filmes</h1>
             <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Julho de 2020</p>
 

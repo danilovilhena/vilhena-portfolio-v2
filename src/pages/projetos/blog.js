@@ -9,9 +9,9 @@ import "../../styles/project.responsivity.css"
 const Blog = () => (
     <Layout title="Blog Tech News" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto Blog Tech News">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #FDDCAE 0%, #FEC28F 100%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto Blog Tech News" data-aos="fade-down" style={{minWidth: '50%'}}></img>
+            <img src={projectImage} alt="Projeto Blog Tech News" style={{minWidth: '50%'}}></img>
         </header>
-        <main className="project-main" data-aos="fade-up">
+        <main className="project-main">
             <h1>Blog Tech News</h1>
             <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Dezembro de 2020</p>
 
