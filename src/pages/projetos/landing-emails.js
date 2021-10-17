@@ -7,7 +7,7 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const LandingEmails = () => (
-    <Layout title="Página de captura de e-mails" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Página de captura de e-mails">
+    <Layout title="Página de captura de e-mails" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Página de captura de e-mails">
         <header className="project-header" style={{background: '#181818', padding: '2rem 0 0 0'}}>
             <img src={projectImage} alt="Página de captura de e-mails"style={{minWidth: '50%'}}></img>
         </header>

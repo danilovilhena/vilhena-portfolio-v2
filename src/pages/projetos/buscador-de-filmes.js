@@ -7,7 +7,7 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const Buscador = () => (
-    <Layout title="Buscador de filmes" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de buscador de filmes.">
+    <Layout title="Buscador de filmes" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de buscador de filmes.">
         <header className="project-header" style={{background: 'linear-gradient(107.47deg, #8ECEA2 -5.57%, #48C0C3 105.74%)', padding: '2rem 0 0 0'}}>
             <img src={projectImage} alt="Projeto de design de landing page"style={{minWidth: '50%'}}></img>
         </header>

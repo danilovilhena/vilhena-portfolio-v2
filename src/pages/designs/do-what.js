@@ -7,7 +7,7 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const DoWhat = () => (
-    <Layout title="do what?" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de design do what?">
+    <Layout title="do what?" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de design do what?">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #0C6597 0%, #084668 100%)', padding: '2rem 0 0 0'}}>
             <img src={projectImage} alt="Projeto de design do what?" style={{minWidth: '50%'}}></img>
         </header>

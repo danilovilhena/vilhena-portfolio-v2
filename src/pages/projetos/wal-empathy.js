@@ -8,7 +8,7 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const WalEmpathy = () => (
-    <Layout title="WAL Empathy Lab" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto WAL Empathy Lab.">
+    <Layout title="WAL Empathy Lab" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto WAL Empathy Lab.">
         <header className="project-header" style={{background: 'linear-gradient(90deg, #075089 0%, #2175AF 100%)', padding: '2rem 0 0 0'}}>
             <img src={projectImage} alt="Projeto WAL Empathy Lab"style={{minWidth: '50%'}}></img>
         </header>

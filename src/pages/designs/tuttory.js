@@ -7,7 +7,7 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const Tuttory = () => (
-    <Layout title="Tuttory" description="Desenvolvedor front-end e UI designer 
+    <Layout title="Tuttory" description="Danilo Vilhena, desenvolvedor front-end e UI designer 
 com ênfase na acessibilidade e otimização dos sites. Projeto de design Tuttory">
         <header className="project-header" style={{background: 'linear-gradient(107.57deg, #55D96B -4.12%, #25AA3B 104.25%)'}}>
             <img src={projectImage} alt="Projeto de design Tuttory"></img>

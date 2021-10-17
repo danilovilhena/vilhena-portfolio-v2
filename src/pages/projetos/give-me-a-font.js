@@ -7,7 +7,7 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const GiveMeAFont = () => (
-    <Layout title="Give me a font!" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto Give me a font!">
+    <Layout title="Give me a font!" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto Give me a font!">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #4C2772 0%, #7F42BD 100%)', padding: '2rem 0 0 0'}}>
             <img src={projectImage} alt="Projeto Give me a font!"style={{minWidth: '50%'}}></img>
         </header>

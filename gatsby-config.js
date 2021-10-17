@@ -28,12 +28,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `vilhena-portfolio`,
+        name: `Danilo Vilhena`,
         start_url: `/`,
-        background_color: `#19323C`,
-        theme_color: `#19323C`,
+        background_color: `#0a0a0a`,
+        theme_color: `#0a0a0a`,
         display: `minimal-ui`,
-        icon: `src/images/pfp.png`,
+        icon: `src/images/pfp-square.png`,
       },
     },
     `gatsby-plugin-offline`,
