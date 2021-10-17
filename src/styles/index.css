@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@keyframes tilt{
+    0%, 100% {transform: rotate(0deg);}
+    10% {transform: rotate(-10deg);}
+    20% {transform: rotate(12deg);}
+    30% {transform: rotate(-10deg);}
+    40% {transform: rotate(9deg);}
+    50% {transform: rotate(0deg);}
+}
+
+html, body{ background-color: #0a0a0a; }
+*{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wrapper{
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0;
+}
+::selection{
+    background-color: #ff5252;
+}
+::-moz-selection{
+    background-color: #ff5252;
+}
+
+/* nav styling */
+.navbar{
+    width: 100%;
+    padding: .5rem 0;
+    background-color: rgba(18,18,18, 0.75);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img{
+    width: 2.5rem;
+    margin-right: .75rem;
+}
+.navbar-brand p{
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+.nav-item:not(:last-child){
+    margin-right: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fafafa;
+}
+#navbarNav{
+    flex-direction: row-reverse;
+}
+#download{
+    color: #00b0ff;
+    text-decoration: none;
+}
+#download:hover{
+    text-decoration-color: #00b0ff;
+    text-decoration-thickness: .115em;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
+/* first section styling */
+#introduction{
+    padding-top: 3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#introduction div{
+    width: 100%;
+    margin-right: 5rem;
+}
+#introduction img{
+    max-width: 20rem;
+}
+#introduction #wave{
+    display: inline-block;
+    transform-origin: 70% 70%;
+    animation: tilt 1.2s infinite;
+} 
+#introduction h1{
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+#introduction h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    width: 85%;
+}
+#introduction p{
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+    width: 90%;
+}
+#introduction a{
+    color: #00b0ff;
+    text-decoration: none;
+}
+#introduction a:hover{
+    text-decoration-color: #00b0ff;
+    text-decoration-thickness: .115em;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
+/* contact styling */
+#contact{
+    width: 55%;
+}
+.section-container{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.section-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.section-subtitle-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.section-subtitle-div a{
+    color: #00b0ff;
+    text-decoration: none;
+}
+.section-subtitle-div a:hover{
+    text-decoration-color: #00b0ff;
+    text-decoration-thickness: .115em;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+.section-subtitle{
+    color: #93a6af;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.section-paragraph{
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    margin-bottom: 3rem;
+}
+#contact a{
+    background-color: #2871d7;
+    border-radius: .25rem;
+    font-size: 1.125rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: all .15s ease-in-out;
+}
+#contact a:hover{
+    background-color: hsl(215, 69%, 45%);
+}
+
+/* footer styling */
+footer{
+    width: 100%;
+    padding: 1rem 0 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    padding-left: 0 !important;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+}
+footer a:hover{
+    color: rgba(255, 255, 255, 0.75);
+}
+footer div a{
+    padding: 1rem;
+}
+footer div a:hover svg path{
+    fill: rgba(255, 255, 255, 0.75);
+}
+footer svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all 0.15s ease-in-out;
+}
+footer div a:not(:last-child){
+    margin-right: .5rem;
+}
+
+/* card styling */
+.col{
+    margin-bottom: .25rem;
+}
+.card-holder{
+    display: flex;
+    flex-wrap: nowrap!important;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    flex: 0 1 auto;
+}
+.card-holder .col:first-child{
+    margin-left: -0.25rem;
+}
+.card{
+    cursor: pointer;
+    background-color: #121212;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    transition: all 0.25s ease-in-out;
+}
+.card:hover{
+    background-color: #292929;
+}
+.card-body{
+    padding: 1.5rem;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.section-container ::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+/* scroll styling */
+.scroll-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scroll-container button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    display: flex;
+    align-items: center;
+}
+.scroll-container button:disabled{
+    visibility: hidden;
+}
+.scroll-container button span{
+    color: #fafafa;
+}
+.scroll-container button:hover span{
+    color: #93a6af;
+}
+.scroll-container button:hover path{
+    fill: #93a6af;
+}
