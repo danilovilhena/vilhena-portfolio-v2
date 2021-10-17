@@ -5,11 +5,12 @@ import projectImage from "../../images/v2-sf/flow-podcast.png"
 import before from "../../images/v2-results/flow-podcast-old.jpg"
 import result from "../../images/v2-results/flow-podcast.png"
 import "../../styles/project.css"
+import "../../styles/project.responsivity.css"
 
 const FlowPodcast = () => (
     <Layout title="Flow Podcast" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de redesign para o site do maior podcast do Brasil">
         <header className="project-header" style={{background: '#FFB709', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto de redesign do Flow Podcast" data-aos="fade-down" style={{width: '50%'}}></img>
+            <img src={projectImage} alt="Projeto de redesign do Flow Podcast" data-aos="fade-down" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main" data-aos="fade-up">
             <h1>Redesign do Flow Podcast</h1>

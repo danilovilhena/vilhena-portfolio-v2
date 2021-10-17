@@ -1,0 +1,12 @@
+@media (max-width: 950px){
+    .project-main{
+        max-width: none;
+        width: 90%;
+    }
+    .project-header img{
+        max-width: 90%;
+        object-fit: contain;
+        height: auto;
+
+    }
+}

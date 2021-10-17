@@ -5,11 +5,12 @@ import Layout from "../../components/Layout"
 // images & styles
 import projectImage from "../../images/v2-sf/wal-empathy.png"
 import "../../styles/project.css"
+import "../../styles/project.responsivity.css"
 
 const WalEmpathy = () => (
     <Layout title="WAL Empathy Lab" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto WAL Empathy Lab.">
         <header className="project-header" style={{background: 'linear-gradient(90deg, #075089 0%, #2175AF 100%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto WAL Empathy Lab" data-aos="fade-down" style={{width: '50%'}}></img>
+            <img src={projectImage} alt="Projeto WAL Empathy Lab" data-aos="fade-down" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main" data-aos="fade-up">
             <h1>WAL Empathy Lab</h1>

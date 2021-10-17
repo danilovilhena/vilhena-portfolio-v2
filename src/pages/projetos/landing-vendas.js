@@ -4,6 +4,7 @@ import Layout from "../../components/Layout"
 import projectImage from "../../images/v2-sf/pagina-de-vendas.png"
 import result from "../../images/v2-results/landing_vendas.png"
 import "../../styles/project.css"
+import "../../styles/project.responsivity.css"
 
 const LandingVendas = () => (
     <Layout title="Landing page de vendas" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de landing page de vendas.">

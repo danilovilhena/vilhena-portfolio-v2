@@ -4,11 +4,12 @@ import Layout from "../../components/Layout"
 import projectImage from "../../images/v2-sf/blog.png"
 import result from "../../images/v2-results/blog.png"
 import "../../styles/project.css"
+import "../../styles/project.responsivity.css"
 
 const Blog = () => (
     <Layout title="Blog Tech News" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto Blog Tech News">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #FDDCAE 0%, #FEC28F 100%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto Blog Tech News" data-aos="fade-down" style={{width: '50%'}}></img>
+            <img src={projectImage} alt="Projeto Blog Tech News" data-aos="fade-down" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main" data-aos="fade-up">
             <h1>Blog Tech News</h1>

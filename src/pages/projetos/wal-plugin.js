@@ -5,6 +5,7 @@ import Layout from "../../components/Layout"
 // images & styles
 import projectImage from "../../images/v2-sf/wal.png"
 import "../../styles/project.css"
+import "../../styles/project.responsivity.css"
 
 const WalPlugin = () => (
     <Layout title="WAL Plugin" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto WAL Plugin.">

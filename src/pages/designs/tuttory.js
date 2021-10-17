@@ -4,6 +4,7 @@ import Layout from "../../components/Layout"
 import projectImage from "../../images/v2-sf/tuttory.png"
 import result from "../../images/v2/tuttory.png"
 import "../../styles/project.css"
+import "../../styles/project.responsivity.css"
 
 const Tuttory = () => (
     <Layout title="Tuttory" description="Desenvolvedor front-end e UI designer 

@@ -4,11 +4,12 @@ import Layout from "../../components/Layout"
 import projectImage from "../../images/v2-sf/landing-emails.png"
 import result from "../../images/v2-results/landing-emails.png"
 import "../../styles/project.css"
+import "../../styles/project.responsivity.css"
 
 const LandingEmails = () => (
     <Layout title="Página de captura de e-mails" description="Desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Página de captura de e-mails">
         <header className="project-header" style={{background: '#181818', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Página de captura de e-mails" data-aos="fade-down" style={{width: '50%'}}></img>
+            <img src={projectImage} alt="Página de captura de e-mails" data-aos="fade-down" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main" data-aos="fade-up">
             <h1>Página de captura de e-mails</h1>
