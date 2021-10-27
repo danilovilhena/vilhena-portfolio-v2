@@ -68,7 +68,7 @@ const Designs = (props) => (
 )
 
 const Projects = (props) => (
-    <section id="designs" className="section-container">
+    <section id="projects" className="section-container">
         <h2 className="section-title">Projetos</h2>
         <div className="section-subtitle-div">
             <h3 className="section-subtitle">Principais aplicações que desenvolvi</h3>
