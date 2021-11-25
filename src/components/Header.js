@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Danilo from "../images/pfp.png"
-import CV from "../CV-DaniloVilhena.pdf"
 
 const Header = () => (
     <header className="navbar sticky-top navbar-expand-lg navbar-dark">
@@ -11,7 +10,7 @@ const Header = () => (
                 <img src={Danilo} alt="Danilo Vilhena"></img>
                 <p>Danilo Vilhena</p>
             </Link>
-            <a id="download" href={CV} download>Currículo</a>
+            <a id="download" href="https://docs.google.com/document/d/1VgoevBa9XSwNu8n5nzE7ptJLkKMreT8pHf0A0SDQyu0/edit?usp=sharing" target="_blank">Currículo</a>
         </div>
     </header>
 )
