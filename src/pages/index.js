@@ -81,7 +81,7 @@ const Contact = () => (
     <section id="contact" className="section-container">
         <h2 className="section-title">Contato</h2>
         <h3 className="section-subtitle" style={{marginBottom: '1rem'}}>Vamos construir algum projeto juntos!</h3>
-        <p className="section-paragraph">Por favor envie um e-mail se estiver procurando por um desenvolvedor front-end, UI designer ou só quiser entrar em contato! <span role="img" aria-label="Acenar">🙋‍♂️</span></p>
+        <p className="section-paragraph">Por favor envie um e-mail se estiver procurando por um desenvolvedor front-end ou só quiser entrar em contato! <span role="img" aria-label="Acenar">🙋‍♂️</span></p>
         <a href="mailto:danilo.vilhena@gmail.com" rel="noopener noreferrer" target="_blank">Fale comigo</a>
     </section>
 )
