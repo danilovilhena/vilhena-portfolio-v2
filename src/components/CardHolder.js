@@ -27,9 +27,7 @@ const CardHolder = (props) => {
 
     return (<>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-holder" onScroll={onScroll} ref={scrollablePostsRef}>
-        {props.obj.map((el, index) => { return (
-            <Card obj={el} key={index}/>
-        )})}
+        {props.obj.map((el, index) => { return (<Card obj={el} key={index}/>) })}
         </div>
         <ScrollButtons
             scrollTo={scrollTo}
@@ -59,10 +57,10 @@ const ScrollButtons = (props) => {
             <svg fill='#fafafa' height='24' width='24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M15.422 7.406L10.828 12l4.594 4.594L14.016 18l-6-6 6-6z' />
             </svg>
-            <span>Anterior</span>
+            <span>Previous</span>
         </button>
         <button disabled={props.scrollPosition >= (props.scrollPositionMaxWidth - SCROLL_VISIBILITY_THRESHOLD)} onClick={() => props.scrollTo('next')}>
-            <span>Próximo</span>
+            <span>Next</span>
             <svg fill='#fafafa' height='24' width='24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M9.984 6l6 6-6 6-1.406-1.406L13.172 12 8.578 7.406z' />
             </svg>

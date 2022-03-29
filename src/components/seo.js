@@ -89,11 +89,11 @@ SEO.defaultProps = {
     },
     {
       name: "og:locale",
-      content: "pt_BR",
+      content: "en_US",
     },
     {
       name: "og:site_name",
-      content: "Danilo Vilhena - Desenvolvedor Web",
+      content: "Danilo Vilhena - Front-end developer",
     },
     {
       name: "og:url",

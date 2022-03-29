@@ -8,9 +8,9 @@ const Layout = (props) => {
 
     return (<>
     <SEO 
-        lang="pt"
+        lang="en"
         title={props.title}
-        description={props.description ? props.description : "Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites."}/>
+        description={props.description ? props.description : "Portfolio made by front-end developer Danilo Vilhena."}/>
     <Header />
     {props.children}
     {!url.includes("404") && <Footer />}

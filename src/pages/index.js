@@ -45,13 +45,14 @@ const projects = [
 const Introduction = () => (
     <section id="introduction">
         <div>
-            <h1>Olá, eu sou o Danilo! <span id="wave" role="img" aria-label="Acenar">👋🏼</span></h1>
-            <h2>Sou um <b>desenvolvedor front-end</b> em Fortaleza. Eu <a href={linkGithub}>programo</a>, fazia <Link to="/v2">designs</Link> e <a href={linkInstagram}>compartilhava conhecimento</a>.</h2>
+            <h1>Hello, I'm Danilo! <span id="wave" role="img" aria-label="Wave">👋🏼</span></h1>
+            <h2>I'm a <b>front-end developer</b> from Brazil. I <a href={linkGithub}>code</a>, I used to <Link to="/v2">design</Link> and <a href={linkInstagram}>share content</a>.</h2>
 
-            <p>Sou um dev focado em <b>performance</b>, <b>usabilidade</b> e <b>acessibilidade</b>. Atualmente trabalho no <a href="http://leadfortaleza.com.br/portal">LEAD Dell</a>.</p>
-            <p>Construo aplicações usando tecnologias como Gatsby, Angular e Vue.</p>
-            <p>Fazia design de interfaces web/mobile usando o Figma.</p>
-            <p>Você pode me encontrar no <a href={linkGithub}>Github</a>, <a href={linkInstagram}>Instagram</a> e <a href={linkLinkedin}>LinkedIn</a>.</p>
+            <p>I'm a dev focused on <b>performance</b>, <b>usability</b> and <b>accessibility</b>. Currently I work at <a href="http://leadfortaleza.com.br/portal">LEAD Dell</a>.</p>
+
+            <p>I build applications using technologies such as Gatsby, Angular e Vue.</p>
+            <p>I used to design web/mobile interfaces using Figma.</p>
+            <p>You can find me at <a href={linkGithub}>Github</a>, <a href={linkInstagram}>Instagram</a> e <a href={linkLinkedin}>LinkedIn</a>.</p>
         </div>
         <img src={Danilo} alt="Danilo Vilhena"></img>
     </section>
@@ -61,7 +62,7 @@ const Designs = (props) => (
     <section id="designs" className="section-container" style={{marginTop: '3rem'}}>
         <h2 className="section-title">Designs</h2>
         <div className="section-subtitle-div">
-            <h3 className="section-subtitle">Projetos do zero e redesigns de UI</h3>
+            <h3 className="section-subtitle">Complete projects and UI redesigns</h3>
         </div>
         <CardHolder obj={props.obj}/>
     </section>
@@ -69,9 +70,9 @@ const Designs = (props) => (
 
 const Projects = (props) => (
     <section id="projects" className="section-container">
-        <h2 className="section-title">Projetos</h2>
+        <h2 className="section-title">Projects</h2>
         <div className="section-subtitle-div">
-            <h3 className="section-subtitle">Principais aplicações que desenvolvi</h3>
+            <h3 className="section-subtitle">Main applications I developed</h3>
         </div>
         <CardHolder obj={props.obj}/>
     </section>
@@ -79,17 +80,16 @@ const Projects = (props) => (
 
 const Contact = () => (
     <section id="contact" className="section-container">
-        <h2 className="section-title">Contato</h2>
-        <h3 className="section-subtitle" style={{marginBottom: '1rem'}}>Vamos construir algum projeto juntos!</h3>
-        <p className="section-paragraph">Por favor envie um e-mail se estiver procurando por um desenvolvedor front-end ou só quiser entrar em contato! <span role="img" aria-label="Acenar">🙋‍♂️</span></p>
-        <a href="mailto:danilo.vilhena@gmail.com" rel="noopener noreferrer" target="_blank">Fale comigo</a>
+        <h2 className="section-title">Contact</h2>
+        <h3 className="section-subtitle" style={{marginBottom: '1rem'}}>Let's build something together!</h3>
+        <p className="section-paragraph">Feel free to send me an email if you're looking for a front-end developer, have a question or just want to say hi! <span role="img" aria-label="Wave">🙋‍♂️</span></p>
+        <a href="mailto:danilo.vilhena@gmail.com" rel="noopener noreferrer" target="_blank">Contact me</a>
     </section>
 )
 
 const Index = () => {
     return (
-    <Layout title="Desenvolvedor front-end" description="Desenvolvedor front-end e UI designer 
-com ênfase na acessibilidade e otimização dos sites.">
+    <Layout title="Front-end developer" description="Front-end developer focused on accessibility and website optimization.">
         <main className="wrapper">
             <Introduction />
             <Projects obj={projects}/>

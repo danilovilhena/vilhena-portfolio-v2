@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Danilo Vilhena`,
-    description: `Portfólio do desenvolvedor web Danilo Vilhena.`,
+    description: `Portfolio made by front-end developer Danilo Vilhena.`,
     author: `Danilo Vilhena`,
     siteUrl: 'https://danilovilhena.com'
   },
