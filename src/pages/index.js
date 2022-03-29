@@ -33,11 +33,11 @@ const designs = [
 ]
 
 const projects = [
-    {title: "WAL Empathy Lab", subtitle: "Uma experiência de usuário, onde você poderá interagir com a web e vivenciar situações cotidianas de pessoas com deficiência visual.", image: devEmpathy, href: "/projetos/wal-empathy"},
-    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: devWal, href: "/projetos/wal-plugin"},
-    {title: "Landing pages de vendas", subtitle: "Página de apresentação de um produto responsiva e buscando a performance máxima.", image: designLanding, href: "/projetos/landing-vendas"},
-    {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: designFont, href: "/projetos/give-me-a-font"},
     {title: "Blog Tech News", subtitle: "Aplicação completa de um blog, com a possibilidade de cadastro, você pode postar suas próprias produções.", image: devBlog, href: "/projetos/blog"},
+    {title: "WAL Empathy Lab", subtitle: "Uma experiência de usuário, onde você poderá interagir com a web e vivenciar situações cotidianas de pessoas com deficiência visual.", image: devEmpathy, href: "/projetos/wal-empathy"},
+    {title: "Landing pages de vendas", subtitle: "Página de apresentação de um produto responsiva e buscando a performance máxima.", image: designLanding, href: "/projetos/landing-vendas"},
+    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: devWal, href: "/projetos/wal-plugin"},
+    {title: "Give me a font", subtitle: "Aplicação para gerar uma fonte aleatória com base na escolha de um estilo para usar no seu próximo projeto.", image: designFont, href: "/projetos/give-me-a-font"},
     {title: "Página de captura de e-mails", subtitle: "Página para apresentar um evento e exibir um formulário para captar clientes", image: devEmail, href: "/projetos/landing-emails"},
     {title: "Buscador de filmes", subtitle: "Site que consome a API do The Movie DB para exibir, buscar e se aprofundar em detalhes de diversos filmes.", image: devFilmes, href: "/projetos/buscador-de-filmes"}
 ]
@@ -46,11 +46,11 @@ const Introduction = () => (
     <section id="introduction">
         <div>
             <h1>Olá, eu sou o Danilo! <span id="wave" role="img" aria-label="Acenar">👋🏼</span></h1>
-            <h2>Sou um <b>desenvolvedor front-end</b> em Fortaleza. Eu <a href={linkGithub}>programo</a>, faço <Link to="/v2">designs</Link> e <a href={linkInstagram}>compartilho conhecimento</a>.</h2>
+            <h2>Sou um <b>desenvolvedor front-end</b> em Fortaleza. Eu <a href={linkGithub}>programo</a>, fazia <Link to="/v2">designs</Link> e <a href={linkInstagram}>compartilhava conhecimento</a>.</h2>
 
             <p>Sou um dev focado em <b>performance</b>, <b>usabilidade</b> e <b>acessibilidade</b>. Atualmente trabalho no <a href="http://leadfortaleza.com.br/portal">LEAD Dell</a>.</p>
             <p>Construo aplicações usando tecnologias como Gatsby, Angular e Vue.</p>
-            <p>Faço design de interfaces web/mobile usando o Figma.</p>
+            <p>Fazia design de interfaces web/mobile usando o Figma.</p>
             <p>Você pode me encontrar no <a href={linkGithub}>Github</a>, <a href={linkInstagram}>Instagram</a> e <a href={linkLinkedin}>LinkedIn</a>.</p>
         </div>
         <img src={Danilo} alt="Danilo Vilhena"></img>
