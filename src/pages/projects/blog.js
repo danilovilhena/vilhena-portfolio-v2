@@ -7,32 +7,32 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const Blog = () => (
-    <Layout title="Blog Tech News" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto Blog Tech News">
+    <Layout title="Tech News blog" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Project Tech News blog">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #FDDCAE 0%, #FEC28F 100%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto Blog Tech News" style={{minWidth: '50%'}}></img>
+            <img src={projectImage} alt="Project Tech News blog" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main">
-            <h1>Blog Tech News</h1>
-            <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Dezembro de 2020</p>
+            <h1>Tech News blog</h1>
+            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> December 2020</p>
 
-            <h2>Motivação</h2>
-            <p>Esse projeto foi realizado como projeto final da disciplina de Desenvolvimento Web, o objetivo era desenvolver uma aplicação web completa: desde o back-end até o front-end, realizando o deploy do site após concluir.</p>
+            <h2>Motivation</h2>
+            <p>This project was done as a final project for my web development class, the goal was to develop a complete web application: from the back-end to the front-end, deploying the site after it was finished.</p>
 
-            <h2>Processo</h2>
-            <p>Como o projeto era de um blog, procurei no Figma por algum design que pudesse reaproveitar na minha aplicação. Encontrei um projeto com algumas telas prontas, necessitando de alguns ajustes para se adequar aos requisitos da disciplina.</p>
-            <p>Para o front-end, escolhi as tecnologias Angular e Bootstrap. Componentizei e reutilizei os elementos, utilizei tags semânticas, textos alternativos e outras práticas para garantir a acessibilidade do site, tornei o site responsivo e otimizei o site de acordo com o Google Lighthouse.</p>
-            <p>Além disso, implementei um sistema de filtros e de paginação para o blog tanto por assunto quanto por data de postagem, para que o usuário possa visualizar os posts que mais se identificam com o seu interesse.</p>
-            <p>Já para o back-end, utilizei Node.js e como base o framework Express. Para o banco de dados, escolhi o MongoDB e a biblioteca Mongoose para interagir com esse banco. Como a aplicação precisava de autenticação, escolhei a biblioteca Bcrypt para encriptar as senhas dos usuários e o JWT (JSON Web Token) para validar o acesso do usuário.</p>
+            <h2>Process</h2>
+            <p>Since the project was a blog, I searched Figma for some design that I could reuse in my application. I found a project with some screenshots ready, needing some adjustments to fit the class requirements.</p>
+            <p>For the front-end, I chose Angular and Bootstrap technologies. I componentized and reused elements, used semantic tags, alternative text and other practices to ensure the accessibility of the site, made the site responsive and optimized the site according to Google Lighthouse.</p>
+            <p>In addition, I implemented filtering and pagination system for the blog both by subject and post date, so that the user can view the posts that most identify with their interest.</p>
+            <p>For the back-end, I used Node.js and the Express framework as a starting point. For the database, I chose MongoDB and the Mongoose library to interact with it. Since the application needed authentication I chose the Bcrypt library to encrypt user passwords and JWT (JSON Web Token) to validate user access.</p>
 
-            <h2>Resultado</h2>
-            <img src={result} alt="Resultado do Blog Tech News" className="project-result-image"></img>
+            <h2>Result</h2>
+            <img src={result} alt="Tech News blog result" className="project-result-image"></img>
 
-            <h2>Links de acesso</h2>
+            <h2>Access links</h2>
             <a href="https://danilovilhena.github.io/angular-express-blog/" className="project-link" target="_blank" rel="noopener noreferrer">
                 <svg viewBox="0 0 128 128">
                 <path fill="#fff" d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zM13.2 64L64 114.8c-28.1 0-50.8-22.7-50.8-50.8zm62.2 49.5l-60.9-61C19.7 30 39.9 13.2 64 13.2c16.6 0 31.3 7.9 40.5 20.2L97 40.6c-7.3-10.4-19.3-17.1-33-17.1-17.6 0-32.5 11.2-38.1 26.8C33.1 57 75.4 98.8 78.1 102c12.7-4.7 22.3-15.5 25.4-28.9H81.9v-9.4l33 .2c-.1 24.3-16.9 44.5-39.5 49.6z"></path>
                 </svg>
-                Aplicação
+                Application
             </a>
             <a href="https://github.com/danilovilhena/angular-express-blog" className="project-link" target="_blank" rel="noopener noreferrer">
                 <svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@ const Blog = () => (
                 Figma
             </a>
 
-            <Link to="/" className="return-button">Voltar</Link>
+            <Link to="/" className="return-button">Return</Link>
         </main>
     </Layout>
 )

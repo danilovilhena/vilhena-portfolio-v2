@@ -25,7 +25,7 @@ const linkLinkedin = "https://www.linkedin.com/in/danilo-vilhena/"
 
 const designs = [
     {title: "Flow Podcast redesign", subtitle: "New and consistent design proposal for the website of Brazil's largest podcast.", image: designFlow, href: "/designs/flow-podcast"},
-    {title: "Digital product landing page", subtitle: "Pages designed to present a digital product and show its details in order to sell.", image: designLanding, href: "/designs/landing-vendas"},
+    {title: "Digital product landing page", subtitle: "Pages designed to present a digital product and show its details in order to sell.", image: designLanding, href: "/designs/landing-sales"},
     {title: "Reset Digital redesign", subtitle: "New design proposal for an inconsistent email capture page.", image: designReset, href: "/designs/reset-digital"},
     {title: "Give me a font!", subtitle: "Design of an application to generate a random font based on your choice of style.", image: designFont, href: "/designs/give-me-a-font"},
     {title: "Tuttory", subtitle: "Innovative platform for connecting students and private teachers.", image: designTuttory, href: "/designs/tuttory"},
@@ -33,13 +33,13 @@ const designs = [
 ]
 
 const projects = [
-    {title: "Tech News blog", subtitle: "Complete application of a blog, with front and back-end, so you can post your own productions.", image: devBlog, href: "/projetos/blog"},
-    {title: "WAL Empathy Lab", subtitle: "A user experience, where you can interact with the web and experience everyday situations of visually impaired people.", image: devEmpathy, href: "/projetos/wal-empathy"},
-    {title: "Digital product landing page", subtitle: "Responsive product landing page with optimized performance.", image: designLanding, href: "/projetos/landing-vendas"},
-    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: devWal, href: "/projetos/wal-plugin"},
-    {title: "Give me a font", subtitle: "A tool that injects accessibility features into websites at runtime, returning a much more accessible page.", image: designFont, href: "/projetos/give-me-a-font"},
-    {title: "Mail capture page", subtitle: "Page to present an event and display a form to capture possible customers.", image: devEmail, href: "/projetos/landing-emails"},
-    {title: "Movie searcher", subtitle: "Site that consumes The Movie DB API to view, search, and delve into details of various movies.", image: devFilmes, href: "/projetos/buscador-de-filmes"}
+    {title: "Tech News blog", subtitle: "Complete application of a blog, with front and back-end, so you can post your own productions.", image: devBlog, href: "/projects/blog"},
+    {title: "WAL Empathy Lab", subtitle: "A user experience, where you can interact with the web and experience everyday situations of visually impaired people.", image: devEmpathy, href: "/projects/wal-empathy"},
+    {title: "Digital product landing page", subtitle: "Responsive product landing page with optimized performance.", image: designLanding, href: "/projects/landing-sales"},
+    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: devWal, href: "/projects/wal-plugin"},
+    {title: "Give me a font", subtitle: "A tool that injects accessibility features into websites at runtime, returning a much more accessible page.", image: designFont, href: "/projects/give-me-a-font"},
+    {title: "Mail capture page", subtitle: "Page to present an event and display a form to capture possible customers.", image: devEmail, href: "/projects/landing-emails"},
+    {title: "Movie searcher", subtitle: "Site that consumes The Movie DB API to view, search, and delve into details of various movies.", image: devFilmes, href: "/projects/movie-searcher"}
 ]
 
 const Introduction = () => (

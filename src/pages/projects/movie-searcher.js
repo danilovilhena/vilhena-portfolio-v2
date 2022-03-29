@@ -7,31 +7,31 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const Buscador = () => (
-    <Layout title="Buscador de filmes" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de buscador de filmes.">
+    <Layout title="Movie searcher" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Project movie searcher.">
         <header className="project-header" style={{background: 'linear-gradient(107.47deg, #8ECEA2 -5.57%, #48C0C3 105.74%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto de design de landing page"style={{minWidth: '50%'}}></img>
+            <img src={projectImage} alt="Project movie searcher" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main">
-            <h1>Buscador de filmes</h1>
-            <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Julho de 2020</p>
+            <h1>Movie searcher</h1>
+            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> July 2020</p>
 
-            <h2>Motivação</h2>
-            <p>Esse projeto foi desenvolvido como parte de um processo seletivo para entrar no meu primeiro estágio, o objetivo era desenvolver uma SPA (Single Page Application) que consumisse uma API de filmes.</p>
+            <h2>Motivation</h2>
+            <p>This project was developed as part of a recruitment process to enter my first internship, the goal was to develop a SPA (Single Page Application) that used a movie API.</p>
 
-            <h2>Processo</h2>
-            <p>A tecnologia usada foi Angular e a aplicação funciona da seguinte maneira: ao entrar na página inicial, é feita uma requisição para a API The Movie DB para receber os dados dos filmes por gênero de filmes e organizar as seções do site; quando o usuário clicar em algum dos filmes, um modal é aberto para mostrar mais detalhes sobre o filme selecionado.</p>
-            <p>Além disso, a aplicação possui mais duas funcionalidades: um campo de busca para que o usuário possa rapidamente encontrar o filme que deseja e funcionalidades de acessibilidade, como: alto contraste e mudança no tamanho da fonte. Essas funcionalidades são muito importantes, pois facilitam o acesso de usuário com alguma dificuldade ou deficiência visual, já que podem personalizar melhor a sua página.</p>
-            <p>Dessa maneira, o projeto foi bem avaliado, cumpriu todos os requisitos propostos e consegui passar no processo seletivo deste estágio.</p>
+            <h2>Process</h2>
+            <p>The technology used was Angular and the application works as follows: when entering the homepage, a request is made to The Movie DB API to receive the movie data by movie genre and organize the sections of the site; when the user clicks on any of the movies, a modal opens to show more details about the selected movie.</p>
+            <p>In addition, the application has two more features: a search field so the user can quickly find the movie they want, and accessibility features such as: high contrast and changing font size. These features are very important as they make it easier for users with some difficulty or visual impairment, as they can better customize their page.</p>
+            <p>That way, the project was well evaluated, met all the proposed requirements and I was able to pass the selection process for this internship.</p>
 
-            <h2>Resultado</h2>
-            <img src={result} alt="Resultado do buscador de filmes" className="project-result-image"></img>
+            <h2>Result</h2>
+            <img src={result} alt="Movie searcher result" className="project-result-image"></img>
 
-            <h2>Links de acesso</h2>
+            <h2>Access links</h2>
             <a href="https://vilhena-movies.netlify.app" className="project-link">
                 <svg viewBox="0 0 128 128">
                 <path fill="#fff" d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zM13.2 64L64 114.8c-28.1 0-50.8-22.7-50.8-50.8zm62.2 49.5l-60.9-61C19.7 30 39.9 13.2 64 13.2c16.6 0 31.3 7.9 40.5 20.2L97 40.6c-7.3-10.4-19.3-17.1-33-17.1-17.6 0-32.5 11.2-38.1 26.8C33.1 57 75.4 98.8 78.1 102c12.7-4.7 22.3-15.5 25.4-28.9H81.9v-9.4l33 .2c-.1 24.3-16.9 44.5-39.5 49.6z"></path>
                 </svg>
-                Aplicação
+                Application
             </a>
             <a href="https://github.com/danilovilhena/angular-themoviedb-spa" className="project-link" target="_blank" rel="noopener noreferrer">
                 <svg viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +46,7 @@ const Buscador = () => (
                 Figma
             </a>
 
-            <Link to="/" className="return-button">Voltar</Link>
+            <Link to="/" className="return-button">Return</Link>
         </main>
     </Layout>
 )

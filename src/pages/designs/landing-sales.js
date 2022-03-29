@@ -7,32 +7,32 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const LandingVendas = () => (
-    <Layout title="Landing page de vendas" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de design de landing page de vendas.">
+    <Layout title="Landing page de vendas" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Projeto de design de landing page de vendas.">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #0C1B41 0%, #132D6C 100%)'}}>
             <img src={projectImage} alt="Projeto de design de landing page" style={{width: 'auto'}}></img>
         </header>
         <main className="project-main">
             <h1>Landing page de vendas</h1>
-            <p className="project-date"><span aria-label="Calendário" role="img">📅</span> Abril de 2021</p>
+            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> Abril  2021</p>
 
-            <h2>Motivação</h2>
+            <h2>Motivation</h2>
             <p>Para esse projeto, os clientes pediram uma página de vendas para um curso que eles produziram. Dessa forma, o design deveria conter informações sobre os professores e detalhes sobre o curso.</p>
             <p>Além disso, a página deveria ter suas seções consistentes e ter botões de CTA claros e destacados para alcançar uma conversão maior.</p>
 
-            <h2>Processo</h2>
+            <h2>Process</h2>
             <p>Como essa era uma página mais simples, as seções deviam ser bem objetivas. Então, consultei os clientes para saber quais informações eles julgava necessárias para a página de vendas do seu produto.</p>
             <p>Após ele me entregar tais informações, fiz um esboço no papel de como elas deveriam ser estruturadas na página de forma que os compradores pudessem facilmente tirar suas dúvidas e prosseguir para a plataforma de vendas.</p>
             <p>Por fim, utilizei o Figma para fazer tanto um wireframing quanto uma versão mais completa para apresentar e validar com o cliente.</p>
 
-            <h2>Resultado</h2>
+            <h2>Result</h2>
             <img src={result} alt="Resultado da landing page de vendas" className="project-result-image"></img>
 
-            <h2>Links de acesso</h2>
+            <h2>Access links</h2>
             <a href="https://recjus.com.br" className="project-link">
                 <svg viewBox="0 0 128 128">
                 <path fill="#fff" d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zM13.2 64L64 114.8c-28.1 0-50.8-22.7-50.8-50.8zm62.2 49.5l-60.9-61C19.7 30 39.9 13.2 64 13.2c16.6 0 31.3 7.9 40.5 20.2L97 40.6c-7.3-10.4-19.3-17.1-33-17.1-17.6 0-32.5 11.2-38.1 26.8C33.1 57 75.4 98.8 78.1 102c12.7-4.7 22.3-15.5 25.4-28.9H81.9v-9.4l33 .2c-.1 24.3-16.9 44.5-39.5 49.6z"></path>
                 </svg>
-                Aplicação
+                Application
             </a>
             <a href="https://www.figma.com/file/0zZTx9yDxeMpQs4J7s16uM/execu%C3%A7%C3%A3o-trabalhista" className="project-link" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 128 128">
@@ -41,7 +41,7 @@ const LandingVendas = () => (
                 Figma
             </a>
 
-            <Link to="/" className="return-button">Voltar</Link>
+            <Link to="/" className="return-button">Return</Link>
         </main>
     </Layout>
 )
