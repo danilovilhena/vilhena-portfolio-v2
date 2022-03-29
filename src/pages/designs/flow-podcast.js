@@ -8,29 +8,29 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const FlowPodcast = () => (
-    <Layout title="Flow Podcast" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Projeto de redesign para o site do maior podcast do Brasil">
+    <Layout title="Flow Podcast" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Flow Podcast redesign.">
         <header className="project-header" style={{background: '#FFB709', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto de redesign do Flow Podcast" style={{minWidth: '50%'}}></img>
+            <img src={projectImage} alt="Flow Podcast redesign" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main">
-            <h1>Redesign do Flow Podcast</h1>
-            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> Abril  2021</p>
+            <h1>Flow Podcast redesign</h1>
+            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> April 2021</p>
 
             <h2>Motivation</h2>
-            <p>Quando colocaram no ar esse site, logo comecei a usar, por acompanhar bastante o podcast. No entanto, desde o começo já eram perceptíveis falhas e inconsistências na interface que só foram aumentando.</p>
-            <p>Muitos componentes prontos e característicos de frameworks (Material, Bootstrap, etc) estavam espalhados pelo site sem seguir nenhum padrão.</p>
-            <p>Portanto, decidi fazer esse redesign para trazer essa consistência, solucionar outros problemas que identifiquei no site tanto para praticar o UI design quanto para propor essa mudança para os desenvolvedores do site.</p>
+            <p>Since they put this site online, I started using it because I follow the podcast a lot. However, since the beginning there were already noticeable design flaws and inconsistencies in the interface that were only increasing.</p>
+            <p>Many components ready and characteristic of frameworks (Material, Bootstrap, etc) were scattered throughout the site without following any pattern.</p>
+            <p>So, I decided to do this redesign to bring this consistency, solve other problems I identified on the site both to practice UI design and to propose this change to the site developers.</p>
 
             <h2>Process</h2>
-            <p>Inicialmente, analisei as páginas para identificar as falhas de interface, como: hierarquia entre elementos, contraste, layout, design e acessibilidade em geral.</p>
-            <p>Após essa análise, tirei prints de todas as telas e comecei a trabalhar no Figma. Pegando os pontos que havia elencado na análise, comecei a fazer os novos componentes e depois estruturá-los na página.</p>
-            <p>Um dos erros mais comuns no site antigo era a inconsistência entre os elementos. Diversos deles que tinham a mesma função não seguiam o mesmo estilo (por vezes diferiam bastante).</p>
-            <p>Outro ponto bem presente era a falta de hierarquia entre os componentes. Títulos, subtítulos e parágrafos quase não tinham distinção, dificultando o entendimento de seções do site.</p>
+            <p>Initially, I analyzed the pages to identify the interface flaws, such as: hierarchy between elements, contrast, layout, design and accessibility in general.</p>
+            <p>After this analysis, I took screenshots of all the screens and started working on Figma. Taking the points I had listed in the analysis, I started making the new components and then structuring them on the page.</p>
+            <p>One of the most common errors in the old site was the inconsistency between elements. Several of them that had the same function did not follow the same style (sometimes they differed greatly).</p>
+            <p>Another very present point was the lack of hierarchy between the components. Headings, subheadings, and paragraphs had almost no distinction, making sections of the site difficult to understand.</p>
 
-            <h2>Antes do redesign</h2>
-            <img src={before} alt="Site antes do redesign do Flow Podcast" className="project-result-image"></img>
-            <h2>Depois do redesign</h2>
-            <img src={result} alt="Resultado do redesign do Flow Podcast" className="project-result-image"></img>
+            <h2>Before redesign</h2>
+            <img src={before} alt="Website before redesign" className="project-result-image"></img>
+            <h2>After redesign</h2>
+            <img src={result} alt="Redesign result" className="project-result-image"></img>
 
             <h2>Access links</h2>
             <a href="https://www.figma.com/file/x8uDJ37ZdP0lgadsgLhJR1/flow-podcast?node-id=202%3A1525" className="project-link" target="_blank" rel="noopener noreferrer">

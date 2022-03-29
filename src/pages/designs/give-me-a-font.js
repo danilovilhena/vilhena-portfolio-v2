@@ -7,23 +7,23 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const GiveMeAFont = () => (
-    <Layout title="Give me a font!" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Projeto de design Give me a font!">
+    <Layout title="Give me a font!" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Give me a font! design project">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #4C2772 0%, #7F42BD 100%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto de design Give me a font!" style={{minWidth: '50%'}}></img>
+            <img src={projectImage} alt="Give me a font! design project" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main">
             <h1>Give me a font!</h1>
-            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> Fevereiro  2021</p>
+            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> February 2021</p>
 
             <h2>Motivation</h2>
-            <p>Após começar nessa área de UI design, percebi que diversas vezes eu repetia a tipografia entre os projetos e ficava "preso" em apenas duas fontes (as famosas Inter e Poppins). Por isso, decidi criar essa ferramenta para gerar uma fonte aleatória e poder testá-la em novos projetos.</p>
+            <p>After I started in UI design, I realized that several times I repeated typography between projects and got "stuck" on only two fonts (the famous Inter and Poppins). So, I decided to create this tool to generate a random font and be able to test it in new projects.</p>
 
             <h2>Process</h2>
-            <p>O design desse projeto foi bem simples e objetivo. No início da página, temos uma breve explicação da funcionalidade do Give me a font! e já partimos para os cinco botões que refletem cada tipo de fonte com uma ilustração após isso para deixar a interface mais amigável.</p>
-            <p>Após esse início, temos uma seção de tira-dúvidas para esclarecer o projeto e outras dúvidas relacionadas às fontes. Além disso, existe uma segunda tela que é a da fonte gerada, para acessá-la você pode tanto ir pelo Figma quanto pela aplicação em si (ambos os links no fim dessa página).</p>
+            <p>The design of this project was very simple and objective. At the top of the page, we have a brief explanation of the functionality of Give me a font! and then we move on to the five buttons that reflect each type of font with an illustration after that to make the interface more user-friendly.</p>
+            <p>After this start, there's a FAQ section to clarify the project and other font-related questions. Also, there is a second screen which is the generated font, to access it you can either go through Figma or the application itself (both links at the bottom of this page).</p>
 
             <h2>Result</h2>
-            <img src={result} alt="Resultado do Give me a font!" className="project-result-image"></img>
+            <img src={result} alt="Give me a font! result" className="project-result-image"></img>
 
             <h2>Access links</h2>
             <a href="https://danilovilhena.github.io/give-me-a-font/" className="project-link" target="_blank" rel="noopener noreferrer">

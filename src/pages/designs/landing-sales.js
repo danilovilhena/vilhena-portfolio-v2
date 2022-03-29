@@ -7,25 +7,25 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const LandingVendas = () => (
-    <Layout title="Landing page de vendas" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Projeto de design de landing page de vendas.">
+    <Layout title="Digital product landing page" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Digital product landing page.">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #0C1B41 0%, #132D6C 100%)'}}>
-            <img src={projectImage} alt="Projeto de design de landing page" style={{width: 'auto'}}></img>
+            <img src={projectImage} alt="Digital product landing page" style={{width: 'auto'}}></img>
         </header>
         <main className="project-main">
-            <h1>Landing page de vendas</h1>
-            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> Abril  2021</p>
+            <h1>Digital product landing page</h1>
+            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> April 2021</p>
 
             <h2>Motivation</h2>
-            <p>Para esse projeto, os clientes pediram uma página de vendas para um curso que eles produziram. Dessa forma, o design deveria conter informações sobre os professores e detalhes sobre o curso.</p>
-            <p>Além disso, a página deveria ter suas seções consistentes e ter botões de CTA claros e destacados para alcançar uma conversão maior.</p>
+            <p>For this project, the clients asked for a sales page for a course they produced. As such, the design should contain information about the teachers and details about the course.</p>
+            <p>In addition, the page should have its sections consistent and have clear and prominent CTA buttons to achieve higher conversion rates.</p>
 
             <h2>Process</h2>
-            <p>Como essa era uma página mais simples, as seções deviam ser bem objetivas. Então, consultei os clientes para saber quais informações eles julgava necessárias para a página de vendas do seu produto.</p>
-            <p>Após ele me entregar tais informações, fiz um esboço no papel de como elas deveriam ser estruturadas na página de forma que os compradores pudessem facilmente tirar suas dúvidas e prosseguir para a plataforma de vendas.</p>
-            <p>Por fim, utilizei o Figma para fazer tanto um wireframing quanto uma versão mais completa para apresentar e validar com o cliente.</p>
+            <p>Since this was a simpler page, the sections had to be very straightforward. So I consulted with the clients to find out what information they thought they needed for their product's sales page.</p>
+            <p>After he handed me such information, I made an outline on paper of how it should be structured on the page so that buyers could easily get their questions answered and proceed to the sales platform.</p>
+            <p>Finally, I used Figma to make both a wireframing and a more complete version to present and validate with the client.</p>
 
             <h2>Result</h2>
-            <img src={result} alt="Resultado da landing page de vendas" className="project-result-image"></img>
+            <img src={result} alt="Digital product landing page result" className="project-result-image"></img>
 
             <h2>Access links</h2>
             <a href="https://recjus.com.br" className="project-link">

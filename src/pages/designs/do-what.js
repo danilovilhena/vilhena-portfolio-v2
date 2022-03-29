@@ -7,21 +7,21 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const DoWhat = () => (
-    <Layout title="do what?" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. Projeto de design do what?">
+    <Layout title="do what?" description="Danilo Vilhena, front-end developer focused on accessibility and website optimization. do what? design project">
         <header className="project-header" style={{background: 'linear-gradient(107.56deg, #0C6597 0%, #084668 100%)', padding: '2rem 0 0 0'}}>
-            <img src={projectImage} alt="Projeto de design do what?" style={{minWidth: '50%'}}></img>
+            <img src={projectImage} alt="do what? design project" style={{minWidth: '50%'}}></img>
         </header>
         <main className="project-main">
             <h1>do what?</h1>
-            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> Abril  2021</p>
+            <p className="project-date"><span aria-label="Calendar" role="img">📅</span> April 2021</p>
 
             <h2>Motivation</h2>
-            <p>Para esse projeto, o objetivo era construir a minha versão minimalista porém esteticamente agradável de um to-do list (uma das aplicações mais comuns em cursos de desenvolvimento) para praticar um pouco de UI design.</p>
+            <p>For this project, the goal was to build my minimalist yet aesthetically pleasing version of a to-do list (one of the most common applications in development courses) to practice a little UI design.</p>
 
             <h2>Process</h2>
-            <p>Como esse era um design minimalista, busquei colocar apenas os elementos fundamentais para construir um to-do list funcional. Para isso, era necessário ter elementos auto-explicativos e intuitivos, como o campo de texto (com um texto que desperta o usuário a agir) e o botão de ação (adicionar nova tarefa) com um destaque do restante da página.</p>
-            <p>Já em relação às tarefas, era necessário que estivessem claramente divididas e que o usuário possa interagir facilmente com elas, seja excluindo ou marcando como conclúida.</p>
-            <p>Além disso, a seção de tarefas concluídas precisava ser distinta das demais tarefas mas ainda estar presente na interface, para que o usuário possa perceber o seu progresso.</p>
+            <p>As this was a minimalist design, I wanted to put only the fundamental elements to build a functional to-do list. This required self-explanatory and intuitive elements, such as the text field (with text that prompts the user to act) and the action button (add new task) standing out from the rest of the page.</p>
+            <p>As for the tasks, it was necessary that they were clearly divided and that the user can easily interact with them, either by deleting or marking as completed.</p>
+            <p>Also, the completed tasks section needed to be distinct from the other tasks but still be present in the interface, so that the user can see their progress.</p>
 
             <h2>Result</h2>
             <img src={result} alt="Resultado do do what?" className="project-result-image"></img>

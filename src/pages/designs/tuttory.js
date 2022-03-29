@@ -7,26 +7,26 @@ import "../../styles/project.css"
 import "../../styles/project.responsivity.css"
 
 const Tuttory = () => (
-    <Layout title="Tuttory" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Projeto de design Tuttory">
+    <Layout title="Tuttory" description="Danilo Vilhena, desenvolvedor front-end e UI designer com ênfase na acessibilidade e otimização dos sites. Tuttory design project.">
         <header className="project-header" style={{background: 'linear-gradient(107.57deg, #55D96B -4.12%, #25AA3B 104.25%)'}}>
-            <img src={projectImage} alt="Projeto de design Tuttory"></img>
+            <img src={projectImage} alt="Tuttory design project."></img>
         </header>
         <main className="project-main">
             <h1>Tuttory</h1>
             <p className="project-date"><span aria-label="Calendar" role="img">📅</span> Maio  2021</p>
 
             <h2>Motivation</h2>
-            <p>Esse projeto foi motivado por uma disciplina no meu curso de Ciência da Computação. O objetivo era entregar um produto usando em uma sprint de 4 semanas.</p>
-            <p>Dessa forma, decidimos construir uma aplicação para facilitar a conexão entre professores particulares e alunos e fiquei responsável pela parte de design da equipe.</p>
+            <p>This project was motivated by a class in my Computer Science course. The goal was to deliver a product using in a 4 week sprint.</p>
+            <p>That way, we decided to build an application to facilitate the connection between private teachers and students and I was responsible for the design part of the team.</p>
 
             <h2>Process</h2>
-            <p>Como só tinhamos uma sprint, o aplicativo Tuttory seria composto de um processo de onboarding, login/cadastro e uma visão das funcionalidades (decididas anteriormente) tanto como professor quanto como aluno, tendo em vista que o aplicativo seria usado por ambos.</p>
-            <p>Inicialmente, fiz um wireframe das telas do projeto, para ter uma visão geral dos elementos e poder estruturá-los nas telas.</p>
-            <p>Após esse momento, decidimos as cores do produto e comecei a escrever os textos da interface. Então, apliquei ambos nos wireframes e apresentei o projeto para a equipe para validação.</p>
+            <p>As we only had one sprint, the Tuttory app would consist of an onboarding process, login/registration and a look at the features (decided beforehand) both as a teacher and as a student, since the app would be used by both.</p>
+            <p>I initially made a wireframe of the project screens, to get an overview of the elements and be able to structure them on the screens.</p>
+            <p>After that, we decided on the colors of the product and I started writing the interface texts. Then, I applied both to the wireframes and presented the project to the team for validation.</p>
 
             <h2>Result</h2>
-            <p>Como esse projeto é mobile, coloquei apenas três telas de demonstração nessa página. Para conferir as demais telas, acesse o link do Figma após a imagem abaixo.</p>
-            <img src={result} alt="Resultado do Tuttory" className="project-result-image"></img>
+            <p>As this is a mobile project, I have put only three demo screens on this page. To see the other screens, go to the Figma link below the image.</p>
+            <img src={result} alt="Tuttory result" className="project-result-image"></img>
 
             <h2>Access links</h2>
             <a href="https://www.figma.com/file/vEbTiEOYDMnq6WrsWz9UgL/Tuttory" className="project-link" target="_blank" rel="noopener noreferrer">
