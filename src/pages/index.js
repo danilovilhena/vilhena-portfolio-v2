@@ -46,9 +46,9 @@ const Introduction = () => (
     <section id="introduction">
         <div>
             <h1>Hello, I'm Danilo! <span id="wave" role="img" aria-label="Wave">👋🏼</span></h1>
-            <h2>I'm a <b>front-end developer</b> from Brazil. I <a href={linkGithub}>code</a>, I used to <Link to="/v2">design</Link> and <a href={linkInstagram}>share content</a>.</h2>
+            <h2>I'm a <b>front-end developer</b> from Brazil. I <a href={linkGithub}>code</a>, I used to <Link to="#designs">design</Link> and <a href={linkInstagram}>share content</a>.</h2>
 
-            <p>I'm a dev focused on <b>performance</b>, <b>usability</b> and <b>accessibility</b>. Currently I work at <a href="http://leadfortaleza.com.br/portal">LEAD Dell</a>.</p>
+            <p>I'm a dev focused on <b>performance</b>, <b>usability</b> and <b>accessibility</b>. Currently I work at <a href="https://chamaileon.io/">Chamaileon</a>.</p>
 
             <p>I build applications using technologies such as Gatsby, Angular e Vue.</p>
             <p>I used to design web/mobile interfaces using Figma.</p>
