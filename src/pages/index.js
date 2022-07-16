@@ -34,9 +34,9 @@ const designs = [
 
 const projects = [
     {title: "Tech News blog", subtitle: "Complete application of a blog, with front and back-end, so you can post your own productions.", image: devBlog, href: "/projects/blog"},
-    {title: "WAL Empathy Lab", subtitle: "A user experience, where you can interact with the web and experience everyday situations of visually impaired people.", image: devEmpathy, href: "/projects/wal-empathy"},
+    {title: "WAL Plugin", subtitle: "A browser extension that injects accessibility resources in websites at runtime, returning a way more accessible page to the user.", image: devWal, href: "/projects/wal-plugin"},
     {title: "Digital product landing page", subtitle: "Responsive product landing page with optimized performance.", image: designLanding, href: "/projects/landing-sales"},
-    {title: "WAL Plugin", subtitle: "Uma ferramenta que injeta recursos de acessibilidade em sites em tempo de execução, retornando uma página bem mais acessível.", image: devWal, href: "/projects/wal-plugin"},
+    {title: "WAL Empathy Lab", subtitle: "A user experience, where you can interact with the web and experience everyday situations of visually impaired people.", image: devEmpathy, href: "/projects/wal-empathy"},
     {title: "Give me a font", subtitle: "A tool that injects accessibility features into websites at runtime, returning a much more accessible page.", image: designFont, href: "/projects/give-me-a-font"},
     {title: "Mail capture page", subtitle: "Page to present an event and display a form to capture possible customers.", image: devEmail, href: "/projects/landing-emails"},
     {title: "Movie searcher", subtitle: "Site that consumes The Movie DB API to view, search, and delve into details of various movies.", image: devFilmes, href: "/projects/movie-searcher"}
