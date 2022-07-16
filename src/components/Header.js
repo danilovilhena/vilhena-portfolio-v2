@@ -10,7 +10,7 @@ const Header = () => (
                 <img src={Danilo} alt="Danilo Vilhena"></img>
                 <p>Danilo Vilhena</p>
             </Link>
-            <a id="download" href="https://docs.google.com/document/d/1VgoevBa9XSwNu8n5nzE7ptJLkKMreT8pHf0A0SDQyu0/edit?usp=sharing" target="_blank" rel="noreferrer">Curriculum</a>
+            <a id="download" href="https://drive.google.com/uc?export=download&id=103-PP9v61hxyOX0Mj78WIwUzV-8vX4RV" target="_blank" rel="noreferrer">Curriculum</a>
         </div>
     </header>
 )
